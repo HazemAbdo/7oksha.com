@@ -1,2 +1,2 @@
 # 7oksha.com
-Multithreades crawler based search engine using java
+Multithreads crawler based search engine using java
