@@ -16,9 +16,12 @@ public class Crawler implements Runnable
      private ArrayList<String> visitedLinks=new ArrayList<String>();
     //To know which thread is working know
     private int id;
+    theDataBase db;
     //constructor
     public Crawler (String link,int num)
     {
+        db=new theDataBase();
+
         firstLink=link;
         id=num;
         thread=new Thread(this);
@@ -37,8 +40,14 @@ private void crawl(int numPages,String url)
     if(numPages<MAX_NUMBER_PAGES)
     {
         Document doc=request(url);
+
         if(doc!=null)
         {
+            //inserted in the database the current url an hashed its document to use it for checking later
+            db.insert_foundsite(url,doc.hashCode());
+
+
+
             //A HTML ((Element)) consists of a tag name, attributes,
             // and child nodes (including text nodes and other elements).
             // From an Element, you can extract data,

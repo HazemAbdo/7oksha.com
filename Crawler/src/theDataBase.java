@@ -41,7 +41,7 @@ public class theDataBase {
                 rs=ps.executeQuery();
                 while(rs.next())
                 {
-                    System.out.println(rs.getString(2)); //here you can get data, the '1' indicates column number based on your query
+                    System.out.println(rs.getString(1)+"   "+ rs.getString(2)); //here you can get data, the '1' indicates column number based on your query
 
                 }
 
@@ -51,10 +51,32 @@ public class theDataBase {
                 System.out.println("Error in getData"+e);
             }
         }
+        public void insert_foundsite(String url, int hash_code)
+        {
+
+            String theQuery="INSERT INTO foundsites values ('"+url+"','"+Integer.toString(hash_code)+"')";
+            String kak="INSERT INTO users (first_name, last_name, is_admin, num_points) "
+                    +"VALUES ('Fred', 'Flinstone', false, 10000)";
+            try {
+                ps = theConnection.prepareStatement(theQuery);
+                ps.executeUpdate();
+            }
+            catch (Exception e)
+            {
+              //  System.out.println(e.toString());
+              //  System.out.println("ERROR IN SQL STATEMENT ");
+
+            }
+        }
 
     public static void main(String[] args) {
         theDataBase db=new theDataBase();
+
+       // db.insert_foundsite("kahhk.com",196515761);
         db.printAllRows();
+        String MYNAME="MOHAMED";
+      //  System.out.println(MYNAME.hashCode());
+        //1948515761
     }
 
 

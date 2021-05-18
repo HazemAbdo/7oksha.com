@@ -2,7 +2,7 @@
 <project version="4">
   <component name="DBNavigator.Project.DataEditorManager">
     <record-view-column-sorting-type value="BY_INDEX" />
-    <value-preview-text-wrapping value="true" />
+    <value-preview-text-wrapping value="false" />
     <value-preview-pinned value="false" />
   </component>
   <component name="DBNavigator.Project.DataExportManager">
@@ -26,6 +26,7 @@
     <show-object-properties value="true" />
     <loaded-nodes>
       <connection connection-id="7af33d35-724c-4ed5-a7c8-4f72208efaee">
+        <schema name="mysql" object-types="table, view, procedure, function" />
         <schema name="searchengine" object-types="table, view, procedure, function, constraint, index, column, dataset trigger" />
       </connection>
     </loaded-nodes>
@@ -43,6 +44,7 @@
   </component>
   <component name="DBNavigator.Project.DatasetFilterManager">
     <filter-actions connection-id="7af33d35-724c-4ed5-a7c8-4f72208efaee" dataset="searchengine.foundsites" active-filter-id="" />
+    <filter-actions connection-id="7af33d35-724c-4ed5-a7c8-4f72208efaee" dataset="searchengine.queue_sites" active-filter-id="" />
   </component>
   <component name="DBNavigator.Project.EditorStateManager">
     <last-used-providers />
