@@ -13,7 +13,7 @@ public class Crawler implements Runnable
     private  Thread thread;
     //Starting link
     private  String firstLink;
-     private ArrayList<String> visitedLinks=new ArrayList<String>();
+    private ArrayList<String> visitedLinks=new ArrayList<String>();
     //To know which thread is working know
     private int id;
     theDataBase db;
@@ -37,6 +37,7 @@ crawl(1,firstLink);
     }
 private void crawl(int numPages,String url)
 {
+    // TODO     use a for loop instead and  extract to be cralwed link form the table in database
     if(numPages<MAX_NUMBER_PAGES)
     {
         Document doc=request(url);
@@ -44,7 +45,9 @@ private void crawl(int numPages,String url)
         if(doc!=null)
         {
             //inserted in the database the current url an hashed its document to use it for checking later
-            db.insert_foundsite(url,doc.hashCode());
+
+            //
+            db.insert_foundsite(url,doc.hashCode(),0);
 
 
 
@@ -95,7 +98,7 @@ private void crawl(int numPages,String url)
             //Standard response for successful HTTP requests is 200
             if(con.response().statusCode()==200)
             {
-                System.out.println("\n**Bot ID:"+ id +" Recieved webpage at " + url);
+              //  System.out.println("\n**Bot ID:"+ id +" Recieved webpage at " + url);
                 String title=doc.title();
                 visitedLinks.add(url);
                 return doc;

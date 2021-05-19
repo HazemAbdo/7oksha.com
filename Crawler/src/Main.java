@@ -16,6 +16,32 @@ public class Main {
             }
 
         }
+        System.out.println("FINISHED");
+        //TODO robot.txt
+        //TODO create the threrads in the main
+
+
+
+
+        //TODO recrawl on a certain codition
+        while(true)
+        {
+            /* cond
+            *  if(contition)
+            * {
+            *   crawl again;
+            * }
+            *
+            *
+            *
+            *
+            *
+            *
+            *
+            *
+            *
+            * */
+        }
 
     }
 

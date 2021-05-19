@@ -51,10 +51,10 @@ public class theDataBase {
                 System.out.println("Error in getData"+e);
             }
         }
-        public void insert_foundsite(String url, int hash_code)
+        public void insert_foundsite(String url, int hash_code,int priority)
         {
 
-            String theQuery="INSERT INTO foundsites values ('"+url+"','"+Integer.toString(hash_code)+"')";
+            String theQuery="INSERT INTO foundsites values ('"+url+"','"+Integer.toString(hash_code)+"'"+priority+")";
             String kak="INSERT INTO users (first_name, last_name, is_admin, num_points) "
                     +"VALUES ('Fred', 'Flinstone', false, 10000)";
             try {
