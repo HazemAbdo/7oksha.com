@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/7oksha.com.iml" filepath="$PROJECT_DIR$/.idea/7oksha.com.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mysql-connector-java-8.0.25/src/build/misc/mysql-connector-java.iml" filepath="$PROJECT_DIR$/mysql-connector-java-8.0.25/src/build/misc/mysql-connector-java.iml" />
+    </modules>
+  </component>
+</project>

@@ -51,12 +51,11 @@ public class theDataBase {
                 System.out.println("Error in getData"+e);
             }
         }
-        public void insert_foundsite(String url, int hash_code,int priority)
+        public void insert_foundsite(String url, int hash_code)
         {
 
-            String theQuery="INSERT INTO foundsites values ('"+url+"','"+Integer.toString(hash_code)+"'"+priority+")";
-            String kak="INSERT INTO users (first_name, last_name, is_admin, num_points) "
-                    +"VALUES ('Fred', 'Flinstone', false, 10000)";
+            //String theQuery="INSERT INTO foundsites values ('"+url+"','"+Integer.toString(hash_code)+"');"+priority+")";
+            String theQuery="INSERT INTO foundsites (URL,HASH_VALUE) VALUES ('"+url+"','"+hash_code+"');";
             try {
                 ps = theConnection.prepareStatement(theQuery);
                 ps.executeUpdate();
@@ -64,15 +63,39 @@ public class theDataBase {
             catch (Exception e)
             {
               //  System.out.println(e.toString());
-              //  System.out.println("ERROR IN SQL STATEMENT ");
+              System.out.println("ERROR IN SQL STATEMENT ");
 
             }
+        }
+        public int Queue_url_isEmpty()
+        {
+            String theQuery="SELECT * FROM searchengine.queue_sites;";
+            //int flag=0;
+            try{
+                ps=theConnection.prepareStatement(theQuery);
+
+                rs=ps.executeQuery();
+                if (rs.next() == false)
+                {
+                    return 1;   //means empty
+                }
+                else
+                {
+                    return 0;   // means not empty
+                }
+
+            }
+            catch(Exception e)
+            {
+                System.out.println("Error in getData"+e);
+            }
+            return 1;
         }
 
     public static void main(String[] args) {
         theDataBase db=new theDataBase();
 
-       // db.insert_foundsite("kahhk.com",196515761);
+       db.insert_foundsite("ddddd.com",1111);
         db.printAllRows();
         String MYNAME="MOHAMED";
       //  System.out.println(MYNAME.hashCode());
@@ -81,3 +104,5 @@ public class theDataBase {
 
 
 }
+
+
