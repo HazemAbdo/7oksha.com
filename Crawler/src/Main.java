@@ -3,9 +3,11 @@ public class Main {
     public static void main(String[] args)
     {
         ArrayList<Crawler> bots=new ArrayList<>();
-        bots.add(new Crawler("https://abcnews.go.com",1));
-        bots.add(new Crawler("https://www.npr.org",2));
-        bots.add(new Crawler("https://www.nytimes.com",3));
+
+        for(int i=0;i<3;i++)
+        {
+            bots.add(new Crawler(i));
+        }
         for (Crawler w :bots)
         {
             try {
@@ -18,13 +20,11 @@ public class Main {
         }
         System.out.println("FINISHED");
         //TODO robot.txt
-        //TODO create the n*threads in the main
 
 
 
 
-        //TODO recrawl on a certain codition
-        // RECRWALING IS NOT REQUIRED
+
 
 
     }

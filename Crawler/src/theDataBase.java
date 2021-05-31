@@ -64,7 +64,8 @@ public class theDataBase {
             catch (Exception e)
             {
               //  System.out.println(e.toString());
-              System.out.println("ERROR IN SQL STATEMENT ");
+              //  System.out.println(e.toString());
+              System.out.println("ERROR IN SQL STATEMENT insert_foundsite ");
 
             }
         }
@@ -88,7 +89,7 @@ public class theDataBase {
             }
             catch(Exception e)
             {
-                System.out.println("Error in getData"+e);
+                System.out.println("Error in Queue_url_isEmpty"+e);
             }
             return true;
         }
@@ -129,7 +130,7 @@ public class theDataBase {
             }
             catch(Exception e)
             {
-                System.out.println("Error in getData"+e);
+                System.out.println("Error in get_next_url_queue"+e);
             }
             return  "";
         }
@@ -143,7 +144,7 @@ public class theDataBase {
             }
             catch(Exception e)
             {
-                System.out.println("Error in Deleting"+e);
+                System.out.println("Error in dequeue_FROM_TABLE"+e);
             }
 
         }
@@ -160,7 +161,7 @@ public class theDataBase {
         catch (Exception e)
         {
             //  System.out.println(e.toString());
-            System.out.println("ERROR IN SQL STATEMENT ");
+            System.out.println("ERROR IN SQL STATEMENT enqueue_URL_QUEUE");
 
         }
     }
@@ -185,15 +186,38 @@ public class theDataBase {
         }
         catch(Exception e)
         {
-            System.out.println("Error in getData"+e);
+            System.out.println("Error in URL_exists_in_found_sites"+e);
         }
         return false;
     }
 
+    public boolean URL_exists_in_QUEUE(String url)  //true if exists,   false if not exist
+    {
+        String theQuery="SELECT * FROM queue_sites where URL='"+url+"';";
+        //int flag=0;
+        try{
+            ps=theConnection.prepareStatement(theQuery);
 
+            rs=ps.executeQuery();
+            if (rs.next() == false)
+            {
+                return false;   //means DOES NOT exist
+            }
+            else
+            {
+                return true;   // means exists
+            }
+
+        }
+        catch(Exception e)
+        {
+            System.out.println("Error in URL_exists_in_found_sites"+e);
+        }
+        return false;
+    }
     public static void main(String[] args) {
         theDataBase db=new theDataBase();
-
+        System.out.println(db.URL_exists_in_QUEUE("llhttps://www8.hp.com/us/en/services/consumer/services-overview.html"));
      //  db.enqueue_URL_QUEUE("KAAAAAAAAAAAAAAAAAAAAAAAAK.com");
        // System.out.println("mohamed exists="+db.URL_exists_in_found_sites("kmohamed.com"));
        // System.out.println("rols exists="+db.URL_exists_in_found_sites("rola.com"));

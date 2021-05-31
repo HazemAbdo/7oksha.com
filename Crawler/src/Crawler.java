@@ -26,7 +26,7 @@ public class Crawler implements Runnable
     private int id;
     theDataBase db;
     //constructor
-    public Crawler (String link,int num)
+    public Crawler (int num)
     {
         db=new theDataBase();
         id=num;
@@ -82,9 +82,12 @@ private void crawl()
                     String next_link = link.absUrl("href");
                     //We make it a set as all its elements must be unique
                     //As we don't want to visit any page more than once
-                    if (!db.URL_exists_in_found_sites(next_link))
+                    synchronized (db)
                     {
-                        db.enqueue_URL_QUEUE(next_link);
+                        if (!db.URL_exists_in_found_sites(next_link) && !db.URL_exists_in_QUEUE(next_link))
+                        {
+                            db.enqueue_URL_QUEUE(next_link);
+                        }
                     }
                 }
                 db.insert_foundsite(url,doc.hashCode());
