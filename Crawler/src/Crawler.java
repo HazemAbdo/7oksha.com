@@ -5,6 +5,7 @@ import org.jsoup.nodes.Element;
 import org.jsoup.nodes.Document;
 import java.io.IOException;
 import java.io.Serial;
+import java.sql.Struct;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
@@ -13,6 +14,7 @@ import java.io.PrintWriter;
 public class Crawler implements Runnable
 {
     //Max number of pages to be crawled
+
     private  static  final int MAX_NUMBER_PAGES=5000;
     private  Thread thread;
     //Starting link
@@ -27,9 +29,6 @@ public class Crawler implements Runnable
     public Crawler (String link,int num)
     {
         db=new theDataBase();
-        // todo fill the queue with number of links do not star with only one link
-        firstLink=link;
-        queue_URL.add(firstLink);
         id=num;
         thread=new Thread(this);
         thread.start();
@@ -44,10 +43,22 @@ crawl();
     }
 private void crawl()
 {
-    // TODO     use a for loop instead and  extract to be crawled link form the table in database
-    while (!queue_URL.isEmpty() && visitedLinks.size()<MAX_NUMBER_PAGES)
+    while (!db.Queue_url_isEmpty() && db.Count_FoundSites()<MAX_NUMBER_PAGES)
     {
-        String url=queue_URL.poll();
+        String url;
+        synchronized (db)
+        {
+            try
+            {
+                url = db.get_next_url_queue();
+                db.dequeue_FROM_TABLE();
+            }
+            catch (Error e)
+            {
+                url=null;
+                System.out.println("URL IS EMPTY");
+            }
+        }
         try {
             Document doc = request(url);
             try (PrintWriter out = new PrintWriter(doc.hashCode()+".txt")) {
@@ -71,11 +82,13 @@ private void crawl()
                     String next_link = link.absUrl("href");
                     //We make it a set as all its elements must be unique
                     //As we don't want to visit any page more than once
-                    if (!visitedLinks.contains(next_link)) {
-                        queue_URL.add(next_link);
+                    if (!db.URL_exists_in_found_sites(next_link))
+                    {
+                        db.enqueue_URL_QUEUE(next_link);
                     }
                 }
-                visitedLinks.add(url);
+                db.insert_foundsite(url,doc.hashCode());
+
                 //System.out.println(url);
             }
         }
