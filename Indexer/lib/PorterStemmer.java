@@ -1,6 +1,9 @@
 package lib;
 //# Reference:
 
+import java.io.FileWriter;
+import java.io.IOException;
+
 //# https://stackoverflow.com/a/4445059/13742330
 //# https://tartarus.org/martin/PorterStemmer/java.txt
 /*
@@ -570,73 +573,81 @@ class PorterStemmer {
      * must be done outside the PorterStemmer class. Usage: PorterStemmer file-name
      * file-name ...
      */
-    public String stem(String filePath){
+    public String stem(String filePath) {
         String outFile = new String();
         char[] w = new char[501];
         ReadFile inFile = new ReadFile(filePath);
         PorterStemmer s = new PorterStemmer();
         int fileIndex = 0;
+        if (inFile.file.length() == 0) {
+            return outFile;
+        }
         try {
             while (true) {
                 int ch;
-
-                if (inFile.file.length() == 0 || fileIndex >= inFile.file.length() - 1) {
+                // equivalent to in.read()
+                if (fileIndex >= inFile.file.length() - 1) {
                     ch = -1;
-                    break;
                 } else
                     ch = inFile.file.charAt(fileIndex++);
                 if (Character.isLetter((char) ch)) {
-                    if (Character.isLetter((char) ch)) {
-                        int j = 0;
-                        while (true) {
-                            ch = Character.toLowerCase((char) ch);
-                            w[j] = (char) ch;
-                            if (j < 500)
-                                j++;
+                    int j = 0;
+                    while (true) {
+                        ch = Character.toLowerCase((char) ch);
+                        w[j] = (char) ch;
+                        if (j < 500)
+                            j++;
 
-                            if (inFile.file.length() == 0 || fileIndex >= inFile.file.length() - 1) {
-                                ch = -1;
-                            } else
-                                ch = inFile.file.charAt(fileIndex++);
-                            if (!Character.isLetter((char) ch)) {
-                                /* to test add(char ch) */
-                                for (int c = 0; c < j; c++)
-                                    s.add(w[c]);
+                        if (fileIndex >= inFile.file.length() - 1) {
+                            ch = -1;
+                        } else
+                            ch = inFile.file.charAt(fileIndex++);
+                        if (!Character.isLetter((char) ch)) {
+                            /* to test add(char ch) */
+                            for (int c = 0; c < j; c++)
+                                s.add(w[c]);
 
-                                /* or, to test add(char[] w, int j) */
-                                /* s.add(w, j); */
+                            /* or, to test add(char[] w, int j) */
+                            /* s.add(w, j); */
 
-                                s.stem();
-                                {
-                                    String u;
+                            s.stem();
+                            {
+                                String u;
 
-                                    /* and now, to test toString() : */
-                                    u = s.toString();
+                                /* and now, to test toString() : */
+                                u = s.toString();
 
-                                    /* to test getResultBuffer(), getResultLength() : */
-                                    /* u = new String(s.getResultBuffer(), 0, s.getResultLength()); */
+                                /* to test getResultBuffer(), getResultLength() : */
+                                /* u = new String(s.getResultBuffer(), 0, s.getResultLength()); */
 
-                                    outFile += u;
-                                }
-                                break;
+                                outFile += u;
                             }
+                            break;
                         }
                     }
-                    if (ch < 0)
-                        break;
-                    outFile += (char) ch;
-                    // System.out.print((char) ch);
-
                 }
+                if (ch < 0)
+                    break;
+                outFile += (char) ch;
+                // System.out.print((char) ch);
+
             }
+
         } catch (Exception e) {
             System.out.println(e.toString());
         }
-        
+
         return outFile;
     }
+
     public static void main(String[] args) {
         PorterStemmer P = new PorterStemmer();
-        System.out.println(P.stem("Files/in1.txt")); 
+        try {
+            FileWriter f = new FileWriter("Files/in2_out.txt");
+            f.write(P.stem("Files/in2.txt"));
+            f.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }

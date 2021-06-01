@@ -21,7 +21,7 @@ public class Stemmer implements Runnable{
             
             try {
                 String temp  = st.stem(this.Docs.get(i));
-                FileWriter ff = new FileWriter(this.Docs.get(i));
+                FileWriter ff = new FileWriter(this.Docs.get(i)+"out.txt");
                 ff.append(temp);
                 ff.close();
             } catch (IOException e) {
@@ -32,7 +32,7 @@ public class Stemmer implements Runnable{
 
     public static void main(String[] args) {
         ArrayList<String> files = new ArrayList<>();
-        files.add("Files/in1.txt");
+        files.add("Files/in3.txt");
         Thread t1 = new Thread(new Stemmer(files,0,1));
         t1.start();
         try {

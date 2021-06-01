@@ -60,6 +60,47 @@ public class theDataBase {
         }
     }
 
+    public void insertIndexedFile(ArrayList<String> words, int DocNum, int priorities) {
+        String outputFile = new String();
+        for (int i = 0; i < words.size(); i++) {
+            // initial statement
+            String query = new String("INSERT INTO INDEXER (term,docnum,indx,wordrank) VALUES('" + words.get(i) + "', "
+                    + (DocNum) + ", " + (i) + ", " + (priorities) + ")");
+            outputFile += words.get(i);
+            outputFile += '\n';
+            i++;
+            // add 1000 statements
+            for (int j = 1; j < 500 && i < words.size(); i++, j++) {
+                query += ",('" + words.get(i) + "', " + (DocNum) + ", " + (i) + ", " + (priorities) + ")";
+                outputFile += words.get(i);
+                outputFile += '\n';
+            }
+            i--;//will be increased next loop
+            query += ";";
+            // execute all of them
+            try {
+                theStatement.execute(query);
+            } catch (Exception e) {
+                System.out.println(e);
+            }
+            new OutputFile("Files/TryingIn2Out.txt", outputFile);
+        }
+        // try {
+        // ps = theConnection.prepareStatement("INSERT INTO INDEXER
+        // (term,docnum,indx,wordrank) VALUES(?,?,?,?)");
+        // for (int i = 0; i < words.size(); i++) {
+        // ps.setString(1, "'" + words.get(i) + "'");
+        // ps.setString(2, Integer.toString(DocNum));
+        // ps.setString(3, Integer.toString(i));
+        // ps.setString(4, Integer.toString(priorities));
+        // ps.addBatch();
+        // ps.executeBatch();
+        // }
+        // } catch (SQLException e1) {
+        // e1.printStackTrace();
+        // }
+    }
+
     public void printAllRows() {
         try {
             ps = theConnection.prepareStatement("select * from INDEXER");
