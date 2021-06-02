@@ -34,6 +34,11 @@ public class theDataBase {
                 System.out.println("Connection could not create statement");
             }
         }
+        try {
+            theStatement.execute("DELETE FROM INDEXER;");
+        } catch (Exception e) {
+            System.out.println(e);
+        }
     }
 
     public ArrayList<String> getFileNames() {
@@ -61,19 +66,14 @@ public class theDataBase {
     }
 
     public void insertIndexedFile(ArrayList<String> words, int DocNum, int priorities) {
-        String outputFile = new String();
         for (int i = 0; i < words.size(); i++) {
             // initial statement
             String query = new String("INSERT INTO INDEXER (term,docnum,indx,wordrank) VALUES('" + words.get(i) + "', "
                     + (DocNum) + ", " + (i) + ", " + (priorities) + ")");
-            outputFile += words.get(i);
-            outputFile += '\n';
             i++;
             // add 1000 statements
-            for (int j = 1; j < 500 && i < words.size(); i++, j++) {
+            for (int j = 1; j < 1000 && i < words.size(); i++, j++) {
                 query += ",('" + words.get(i) + "', " + (DocNum) + ", " + (i) + ", " + (priorities) + ")";
-                outputFile += words.get(i);
-                outputFile += '\n';
             }
             i--;//will be increased next loop
             query += ";";
@@ -83,7 +83,6 @@ public class theDataBase {
             } catch (Exception e) {
                 System.out.println(e);
             }
-            new OutputFile("Files/TryingIn2Out.txt", outputFile);
         }
         // try {
         // ps = theConnection.prepareStatement("INSERT INTO INDEXER

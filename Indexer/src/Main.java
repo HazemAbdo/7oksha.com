@@ -14,12 +14,12 @@ class Main {
         } catch (InterruptedException e) {
             System.out.println(e.toString());
         }
-        // t1 = new Thread(new Indexer(files, 0, 3, db));
-        // t1.start();
-        // try {
-        //     t1.join();
-        // } catch (InterruptedException e) {
-        //     System.out.println(e.toString());
-        // }
+        t1 = new Thread(new Indexer(files, 0, 3, db));
+        t1.start();
+        try {
+            t1.join();
+        } catch (InterruptedException e) {
+            System.out.println(e.toString());
+        }
     }
 }

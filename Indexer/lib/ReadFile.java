@@ -2,10 +2,7 @@ package lib;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
-
-import org.jsoup.Connection;
 import org.jsoup.Jsoup;
-import org.jsoup.nodes.Element;
 import org.jsoup.nodes.Document;
 
 public class ReadFile {
