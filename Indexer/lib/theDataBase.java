@@ -1,3 +1,8 @@
+// TODO look for this file's TODOs below
+// TODO make TF(term,file) function (term frequency) with SQL queries
+// TODO make IDF(term) function (Inverse document frequency) using SQL queries
+// TODO make the searchQuery(term) function that returns all files of a word with SQL
+
 package lib;
 
 import java.sql.Connection;
@@ -9,6 +14,9 @@ import java.sql.PreparedStatement;
 
 // ! DON'T FORGET:
 // ! Create table indexer;
+// table indexer: term, docnum, indx, priority
+
+// Database initializer class
 public class theDataBase {
     public Connection theConnection = null;
     public Statement theStatement = null;
@@ -35,12 +43,16 @@ public class theDataBase {
             }
         }
         try {
-            theStatement.execute("DELETE FROM INDEXER;");
+            // ? should we delete this line?
+            // theStatement.execute("DELETE FROM INDEXER;");
         } catch (Exception e) {
             System.out.println(e);
         }
     }
 
+    // get an array of files names from database
+    // TODO: use hashCode instead of URL because fileNames their hashCodes
+    // TODO: Make indexer hashCode a Foreign key to hashCode in foundsites table
     public ArrayList<String> getFileNames() {
         ArrayList<String> result = null;
         try {
@@ -56,6 +68,7 @@ public class theDataBase {
         return result;
     }
 
+    // ! This function is toooooo slow use insertIndexedFile instead
     public void insertWord(String word, int DocNum, int indx, int priority) {
         try {
             theStatement.execute("INSERT INTO INDEXER (term,docnum,indx,wordrank) VALUES('" + word + "', " + (DocNum)
@@ -65,17 +78,20 @@ public class theDataBase {
         }
     }
 
+    // TODO: use array of indecies instead of in-place indecies in order to get true
+    // TODO: indecies in the original file
+    // TODO: (This is because stopped words are ommited)
     public void insertIndexedFile(ArrayList<String> words, int DocNum, int priorities) {
         for (int i = 0; i < words.size(); i++) {
             // initial statement
             String query = new String("INSERT INTO INDEXER (term,docnum,indx,wordrank) VALUES('" + words.get(i) + "', "
                     + (DocNum) + ", " + (i) + ", " + (priorities) + ")");
             i++;
-            // add 1000 statements
-            for (int j = 1; j < 1000 && i < words.size(); i++, j++) {
+            // add Constants.rowsPerQuery statements
+            for (int j = 1; j < Constants.rowsPerQuery && i < words.size(); i++, j++) {
                 query += ",('" + words.get(i) + "', " + (DocNum) + ", " + (i) + ", " + (priorities) + ")";
             }
-            i--;//will be increased next loop
+            i--;// will be increased again next loop
             query += ";";
             // execute all of them
             try {
@@ -84,22 +100,9 @@ public class theDataBase {
                 System.out.println(e);
             }
         }
-        // try {
-        // ps = theConnection.prepareStatement("INSERT INTO INDEXER
-        // (term,docnum,indx,wordrank) VALUES(?,?,?,?)");
-        // for (int i = 0; i < words.size(); i++) {
-        // ps.setString(1, "'" + words.get(i) + "'");
-        // ps.setString(2, Integer.toString(DocNum));
-        // ps.setString(3, Integer.toString(i));
-        // ps.setString(4, Integer.toString(priorities));
-        // ps.addBatch();
-        // ps.executeBatch();
-        // }
-        // } catch (SQLException e1) {
-        // e1.printStackTrace();
-        // }
     }
 
+    // for debugging reasons, print all rows of indexer table
     public void printAllRows() {
         try {
             ps = theConnection.prepareStatement("select * from INDEXER");

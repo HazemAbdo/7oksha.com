@@ -1,0 +1,512 @@
+
+approxim			l	(ɫ)	j	w			
+the phonem /d͡ʒ/ is repres by the arab letter jīm (ج‎) and ha mani standard pronunci. [d͡ʒ] is characterist of north algeria, iraq, and most of the arabian peninsula but with an allophon [ʒ] in some posit; [ʒ] occur in most of the levant and most of north africa; and [ɡ] is us in most of egypt and some region in yemen and oman. gener thi correspond with the pronunci in the colloqui dialect.[87] in some region in sudan and yemen, as well as in some sudanes and yemeni dialect, it mai be either [ɡʲ] or [ɟ], repres the origin pronunci of classic arab. foreign word contain /ɡ/ mai be transcrib with ج‎, غ‎, ك‎, ق‎, گ‎, ݣ‎ or ڨ‎, mainli depend on the region spoken varieti of arab or the commonli diacritic arab letter. in northern egypt, where the arab letter jīm (ج‎) is normal pronounc [ɡ], a separ phonem /ʒ/, which mai be transcrib with چ‎, occur in a small number of mostli non-arab loanword, e.g., /ʒakitta/ 'jacket'.
+
+/θ/ (ث‎) can be pronounc as [s]. in some place of maghreb it can be also pronounc as [t͡s].
+
+/x/ and /ɣ/ (خ,‎ غ‎) ar velar, post-velar, or uvular.[88]
+
+in mani varieti, /ħ, ʕ/ (ح,‎ ع‎) ar epiglott [ʜ, ʢ] in western asia.
+
+/l/ is pronounc as velar [ɫ] in الله /ʔallaːh/, the name of god, q.e. allah, when the word follow a, ā, u or ū (after i or ī it is unvelar: بسم الله‎ bismi l–lāh /bismillaːh/). some speaker velar other occurr of /l/ in msa, in imit of their spoken dialect.
+
+the emphat conson /dˤ/ wa actual pronounc [ɮˤ], or possibl [d͡ɮˤ][89]—either wai, a highli unusu sound. the mediev arab actual term their languag lughat al-ḍād 'the languag of the ḍād' (the name of the letter us for thi sound), sinc thei thought the sound wa uniqu to their languag. (in fact, it also exist in a few other minor semit languag, e.g., mehri.)
+
+arab ha conson tradition term "emphat" /tˤ, dˤ, sˤ, ðˤ/ (ط,‎ ض,‎ ص,‎ ظ‎), which exhibit simultan pharyng [tˤ, dˤ, sˤ, ðˤ] as well as vari degre of velar [tˠ, dˠ, sˠ, ðˠ] (depend on the region), so thei mai be written with the "velar or pharyng" diacrit ( ̴) as: /t̴, d̴, s̴, ð̴/. thi simultan articul is describ as "retract tongu root" by phonologist.[90] in some transcript system, emphasi is shown by capit the letter, for exampl, /dˤ/ is written ⟨d⟩; in other the letter is underlin or ha a dot below it, for exampl, ⟨ḍ⟩.
+
+vowel and conson can be phonolog short or long. long (gemin) conson ar normal written doubl in latin transcript (i.e. bb, dd, etc.), reflect the presenc of the arab diacrit mark shaddah, which indic doubl conson. in actual pronunci, doubl conson ar held twice as long as short conson. thi conson lengthen is phonem contrast: قبل‎ qabila 'he accept' vs. قبّل‎ qabbala 'he kiss'.
+
+syllabl structur
+arab ha two kind of syllabl: open syllabl (cv) and (cvv)—and close syllabl (cvc), (cvvc) and (cvcc). the syllabl type with two mora (unit of time), i.e. cvc and cvv, ar term heavi syllabl, while those with three mora, i.e. cvvc and cvcc, ar superheavi syllabl. superheavi syllabl in classic arab occur in onli two place: at the end of the sentenc (due to pausal pronunci) and in word such as حارّ‎ ḥārr 'hot', مادّة‎ māddah 'stuff, substanc', تحاجوا‎ taḥājjū 'thei disput with each other', where a long ā occur befor two ident conson (a former short vowel between the conson ha been lost). (in less formal pronunci of modern standard arab, superheavi syllabl ar common at the end of word or befor clitic suffix such as -nā 'us, our', due to the delet of final short vowel.)
+
+in surfac pronunci, everi vowel must be preced by a conson (which mai includ the glottal stop [ʔ]). there ar no case of hiatu within a word (where two vowel occur next to each other, without an interven conson). some word do have an underli vowel at the begin, such as the definit articl al- or word such as اشترا‎ ishtarā 'he bought', اجتماع‎ ijtimāʻ 'meet'. when actual pronounc, on of three thing happen:
+
+if the word occur after anoth word end in a conson, there is a smooth transit from final conson to initi vowel, e.g., الاجتماع‎ al-ijtimāʻ 'meet' /alid͡ʒtimaːʕ/.
+if the word occur after anoth word end in a vowel, the initi vowel of the word is elid, e.g., بيت المدير‎ baytu (a)l-mudīr 'hous of the director' /bajtulmudiːr/.
+if the word occur at the begin of an utter, a glottal stop [ʔ] is ad onto the begin, e.g., البيت هو‎ al-baytu huwa ... 'the hous is ...' /ʔalbajtuhuwa ... /.
+stress
+word stress is not phonem contrast in standard arab. it bear a strong relationship to vowel length. the basic rule for modern standard arab ar:
+
+a final vowel, long or short, mai not be stress.
+onli on of the last three syllabl mai be stress.
+given thi restrict, the last heavi syllabl (contain a long vowel or end in a conson) is stress, if it is not the final syllabl.
+if the final syllabl is super heavi and close (of the form cvvc or cvcc) it receiv stress.
+if no syllabl is heavi or super heavi, the first possibl syllabl (i.e. third from end) is stress.
+as a special except, in form vii and viii verb form stress mai not be on the first syllabl, despit the abov rule: henc inkatab(a) 'he subscrib' (whether or not the final short vowel is pronounc), yankatib(u) 'he subscrib' (whether or not the final short vowel is pronounc), yankatib 'he should subscrib (juss.)'. likewis form viii ishtarā 'he bought', yashtarī 'he bui'.
+exampl:kitāb(un) 'book', kā-ti-b(un) 'writer', mak-ta-b(un) 'desk', ma-kā-ti-b(u) 'desk', mak-ta-ba-tun 'librari' (but mak-ta-ba(-tun) 'librari' in short pronunci), ka-ta-bū (modern standard arab) 'thei wrote' = ka-ta-bu (dialect), ka-ta-bū-h(u) (modern standard arab) 'thei wrote it' = ka-ta-bū (dialect), ka-ta-ba-tā (modern standard arab) 'thei (dual, fem) wrote', ka-tab-tu (modern standard arab) 'i wrote' = ka-tabt (short form or dialect). doubl conson count as two conson: ma-jal-la-(tan) 'magazin', ma-ḥall(-un) "place".
+
+these rule mai result in differ stress syllabl when final case end ar pronounc, vs. the normal situat where thei ar not pronounc, as in the abov exampl of mak-ta-ba-tun 'librari' in full pronunci, but mak-ta-ba(-tun) 'librari' in short pronunci.
+
+the restrict on final long vowel doe not appli to the spoken dialect, where origin final long vowel have been shorten and secondari final long vowel have arisen from loss of origin final -hu/hi.
+
+some dialect have differ stress rule. in the cairo (egyptian arab) dialect a heavi syllabl mai not carri stress more than two syllabl from the end of a word, henc mad-ra-sah 'school', qā-hi-rah 'cairo'. thi also affect the wai that modern standard arab is pronounc in egypt. in the arab of sanaa, stress is often retract: bai-tayn 'two hous', mā-sat-hum 'their tabl', ma-kā-tīb 'desk', zā-rat-ḥīn 'sometim', mad-ra-sat-hum 'their school'. (in thi dialect, onli syllabl with long vowel or diphthong ar consid heavi; in a two-syllabl word, the final syllabl can be stress onli if the preced syllabl is light; and in longer word, the final syllabl cannot be stress.)
+
+level of pronunci
+the final short vowel (e.g., the case end -a -i -u and mood end -u -a) ar often not pronounc in thi languag, despit form part of the formal paradigm of noun and verb. the follow level of pronunci exist:
+
+full pronunci with pausa
+thi is the most formal level actual us in speech. all end ar pronounc as written, except at the end of an utter, where the follow chang occur:
+
+final short vowel ar not pronounc. (but possibl an except is made for feminin plural -na and shorten vowel in the jussiv/imper of defect verb, e.g., irmi! 'throw!'".)
+the entir indefinit noun end -in and -un (with nunat) ar left off. the end -an is left off of noun preced by a tāʾ marbūṭah ة (i.e. the -t in the end -at- that typic mark feminin noun), but pronounc as -ā in other noun (henc it write in thi fashion in the arab script).
+the tāʼ marbūṭah itself (typic of feminin noun) is pronounc as h. (at least, thi is the case in extrem formal pronunci, e.g., some quran recit. in practic, thi h is usual omit.)
+formal short pronunci
+thi is a formal level of pronunci sometim seen. it is somewhat like pronounc all word as if thei were in pausal posit (with influenc from the colloqui varieti). the follow chang occur:
+
+most final short vowel ar not pronounc. howev, the follow short vowel ar pronounc:
+feminin plural -na
+shorten vowel in the jussiv/imper of defect verb, e.g., irmi! 'throw!'
+second-person singular feminin past-tens -ti and likewis anti 'you (fem. sg.)'
+sometim, first-person singular past-tens -tu
+sometim, second-person masculin past-tens -ta and likewis anta 'you (masc. sg.)'
+final -a in certain short word, e.g., laysa 'is not', sawfa (futur-tens marker)
+the nunat end -an -in -un ar not pronounc. howev, thei ar pronounc in adverbi accus format, e.g., taqrīban تَقْرِيبًا 'almost, approxim', ʻādatan عَادَةً 'usual'.
+the tāʾ marbūṭah end ة is unpronounc, except in construct state noun, where it sound as t (and in adverbi accus construct, e.g., ʻādatan عَادَةً 'usual', where the entir -tan is pronounc).
+the masculin singular nisbah end -iyi is actual pronounc -ī and is unstress (but plural and feminin singular form, i.e. when follow by a suffix, still sound as -iyi-).
+full end (includ case end) occur when a clitic object or possess suffix is ad (e.g., -nā 'us/our').
+inform short pronunci
+thi is the pronunci us by speaker of modern standard arab in extemporan speech, i.e. when produc new sentenc rather than simpli read a prepar text. it is similar to formal short pronunci except that the rule for drop final vowel appli even when a clitic suffix is ad. basic, short-vowel case and mood end ar never pronounc and certain other chang occur that echo the correspond colloqui pronunci. specif:
+
+all the rule for formal short pronunci appli, except as follow.
+the past tens singular end written formal as -tu -ta -ti ar pronounc -t -t -ti. but masculin ʾanta is pronounc in full.
+unlik in formal short pronunci, the rule for drop or modifi final end ar also appli when a clitic object or possess suffix is ad (e.g., -nā 'us/our'). if thi produc a sequenc of three conson, then on of the follow happen, depend on the speaker's nativ colloqui varieti:
+a short vowel (e.g., -i- or -ǝ-) is consist ad, either between the second and third or the first and second conson.
+or, a short vowel is ad onli if an otherwis unpronounc sequenc occur, typic due to a violat of the sonor hierarchi (e.g., -rtn- is pronounc as a three-conson cluster, but -trn- need to be broken up).
+or, a short vowel is never ad, but conson like r l m n occur between two other conson will be pronounc as a syllab conson (as in the english word "butter bottl bottom button").
+when a doubl conson occur befor anoth conson (or final), it is often shorten to a singl conson rather than a vowel ad. (howev, moroccan arab never shorten doubl conson or insert short vowel to break up cluster, instead toler arbitrari-length seri of arbitrari conson and henc moroccan arab speaker ar like to follow the same rule in their pronunci of modern standard arab.)
+the clitic suffix themselv tend also to be chang, in a wai that avoid mani possibl occurr of three-conson cluster. in particular, -ka -ki -hu gener sound as -ak -ik -uh.
+final long vowel ar often shorten, merg with ani short vowel that remain.
+depend on the level of formal, the speaker's educ level, etc., variou grammat chang mai occur in wai that echo the colloqui variant:
+ani remain case end (e.g. masculin plural nomin -ūn vs. obliqu -īn) will be level, with the obliqu form us everywher. (howev, in word like ab 'father' and akh 'brother' with special long-vowel case end in the construct state, the nomin is us everywher, henc abū 'father of', akhū 'brother of'.)
+feminin plural end in verb and clitic suffix will often drop out, with the masculin plural end us instead. if the speaker's nativ varieti ha feminin plural end, thei mai be preserv, but will often be modifi in the direct of the form us in the speaker's nativ varieti, e.g. -an instead of -na.
+dual end will often drop out except on noun and then us onli for emphasi (similar to their us in the colloqui varieti); elsewher, the plural end ar us (or feminin singular, if appropri).
+colloqui varieti
+further inform: varieti of arab
+vowel
+vowel phonem of modern standard arab
+short	long
+front	back	front	back
+close	/i/	/u/	/iː/	/uː/
+open	/a/	/aː/
+diphthong	/aw/, /aj/
+most common vowel system among arab dialect
+short	long
+front	back	front	back
+close	/i/	/u/	/iː/	/uː/
+mid	/eː/	/oː/
+open	/a/	/aː/
+diphthong	/aw/, /aj/
+as mention abov, mani spoken dialect have a process of emphasi spread, where the "emphasi" (pharyng) of emphat conson spread forward and back through adjac syllabl, pharyng all nearbi conson and trigger the back allophon [ɑ(ː)] in all nearbi low vowel. the extent of emphasi spread vari. for exampl, in moroccan arab, it spread as far as the first full vowel (i.e. sound deriv from a long vowel or diphthong) on either side; in mani levantin dialect, it spread indefinit, but is block by ani /j/ or /ʃ/; while in egyptian arab, it usual spread throughout the entir word, includ prefix and suffix. in moroccan arab, /i u/ also have emphat allophon [e~ɛ] and [o~ɔ], respect.
+
+unstress short vowel, especi /i u/, ar delet in mani context. mani sporad exampl of short vowel chang have occur (especi /a/→/i/ and interchang /i/↔/u/). most levantin dialect merg short /i u/ into /ə/ in most context (all except directli befor a singl final conson). in moroccan arab, on the other hand, short /u/ trigger labial of nearbi conson (especi velar conson and uvular conson), and then short /a i u/ all merg into /ə/, which is delet in mani context. (the labial plu /ə/ is sometim interpret as an underli phonem /ŭ/.) thi essenti caus the wholesal loss of the short-long vowel distinct, with the origin long vowel /aː iː uː/ remain as half-long [aˑ iˑ uˑ], phonem /a i u/, which ar us to repres both short and long vowel in borrow from literari arab.
+
+most spoken dialect have monophthong origin /aj aw/ to /eː oː/ in most circumst, includ adjac to emphat conson, while keep them as the origin diphthong in other e.g. مَوْعِد‎ /mawʕid/. in most of the moroccan, algerian and tunisian (except sahel and southeastern) arab dialect, thei have subsequ merg into origin /iː uː/.
+
+conson
+in most dialect, there mai be more or fewer phonem than those list in the chart abov. for exampl, [g] is consid a nativ phonem in most arab dialect except in levantin dialect like syrian or lebanes where ج‎ is pronounc [ʒ] and ق‎ is pronounc [ʔ]. [d͡ʒ] or [ʒ] (ج‎) is consid a nativ phonem in most dialect except in egyptian and a number of yemeni and omani dialect where ج‎ is pronounc [g]. [zˤ] or [ðˤ] and [dˤ] ar distinguish in the dialect of egypt, sudan, the levant and the hejaz, but thei have merg as [ðˤ] in most dialect of the arabian peninsula, iraq and tunisia and have merg as [dˤ] in morocco and algeria. the usag of non-nativ [p] پ‎ and [v] ڤ‎ depend on the usag of each speaker but thei might be more preval in some dialect than other. the iraqi and gulf arab also ha the sound [t͡ʃ] and write it and [ɡ] with the persian letter چ and گ, as in گوجة gawjah "plum"; چمة chimah "truffl".
+
+earli in the expans of arab, the separ emphat phonem [ɮˤ] and [ðˤ] coalesc into a singl phonem [ðˤ]. mani dialect (such as egyptian, levantin, and much of the maghreb) subsequ lost interdent fric, convert [θ ð ðˤ] into [t d dˤ]. most dialect borrow "learn" word from the standard languag us the same pronunci as for inherit word, but some dialect without interdent fric (particularli in egypt and the levant) render origin [θ ð ðˤ dˤ] in borrow word as [s z zˤ dˤ].
+
+anoth kei distinguish mark of arab dialect is how thei render the origin velar and uvular plosiv /q/, /d͡ʒ/ (proto-semit /ɡ/), and /k/:
+
+ق‎ /q/ retain it origin pronunci in wide scatter region such as yemen, morocco, and urban area of the maghreb. it is pronounc as a glottal stop [ʔ] in sever prestig dialect, such as those spoken in cairo, beirut and damascu. but it is render as a voic velar plosiv [ɡ] in persian gulf, upper egypt, part of the maghreb, and less urban part of the levant (e.g. jordan). in iraqi arab it sometim retain it origin pronunci and is sometim render as a voic velar plosiv, depend on the word. some tradition christian villag in rural area of the levant render the sound as [k], as do shiʻi bahraini. in some gulf dialect, it is palat to [d͡ʒ] or [ʒ]. it is pronounc as a voic uvular constrict [ʁ] in sudanes arab. mani dialect with a modifi pronunci for /q/ maintain the [q] pronunci in certain word (often with religi or educ overton) borrow from the classic languag.
+ج‎ /d͡ʒ/ is pronounc as an affric in iraq and much of the arabian peninsula but is pronounc [ɡ] in most of north egypt and part of yemen and oman, [ʒ] in morocco, tunisia, and the levant, and [j], [i̠] in most word in much of the persian gulf.
+ك‎ /k/ usual retain it origin pronunci but is palat to /t͡ʃ/ in mani word in israel and the palestinian territori, iraq, and countri in the eastern part of the arabian peninsula. often a distinct is made between the suffix /-ak/ ('you', masc.) and /-ik/ ('you', fem.), which becom /-ak/ and /-it͡ʃ/, respect. in sana'a, omani, and bahrani /-ik/ is pronounc /-iʃ/.
+pharyng of the emphat conson tend to weaken in mani of the spoken varieti, and to spread from emphat conson to nearbi sound. in addit, the "emphat" allophon [ɑ] automat trigger pharyng of adjac sound in mani dialect. as a result, it mai difficult or imposs to determin whether a given coron conson is phonem emphat or not, especi in dialect with long-distanc emphasi spread. (a notabl except is the sound /t/ vs. /tˤ/ in moroccan arab, becaus the former is pronounc as an affric [t͡s] but the latter is not.)
+
+grammar
+
+exampl of how the arab root and form system work
+main articl: arab grammar
+literari arab
+main articl: modern standard arab
+as in other semit languag, arab ha a complex and unusu morpholog (i.e. method of construct word from a basic root). arab ha a nonconcaten "root-and-pattern" morpholog: a root consist of a set of bare conson (usual three), which ar fit into a discontinu pattern to form word. for exampl, the word for 'i wrote' is construct by combin the root k-t-b 'write' with the pattern -a-a-tu 'i xed' to form katabtu 'i wrote'. other verb mean 'i xed' will typic have the same pattern but with differ conson, e.g. qaraʼtu 'i read', akaltu 'i at', dhahabtu 'i went', although other pattern ar possibl (e.g. sharibtu 'i drank', qultu 'i said', takallamtu 'i spoke', where the subpattern us to signal the past tens mai chang but the suffix -tu is alwai us).
+
+from a singl root k-t-b, numer word can be form by appli differ pattern:
+
+كَتَبْتُ katabtu 'i wrote'
+كَتَّبْتُ kattabtu 'i had (someth) written'
+كَاتَبْتُ kātabtu 'i correspond (with someon)'
+أَكْتَبْتُ 'aktabtu 'i dictat'
+اِكْتَتَبْتُ iktatabtu 'i subscrib'
+تَكَاتَبْنَا takātabnā 'we correspond with each other'
+أَكْتُبُ 'aktubu 'i write'
+أُكَتِّبُ 'ukattibu 'i have (someth) written'
+أُكَاتِبُ 'ukātibu 'i correspond (with someon)'
+أُكْتِبُ 'uktibu 'i dictat'
+أَكْتَتِبُ 'aktatibu 'i subscrib'
+نَتَكَتِبُ natakātabu 'we correspond each other'
+كُتِبَ kutiba 'it wa written'
+أُكْتِبَ 'uktiba 'it wa dictat'
+مَكْتُوبٌ maktūbun 'written'
+مُكْتَبٌ muktabun 'dictat'
+كِتَابٌ kitābun 'book'
+كُتُبٌ kutubun 'book'
+كَاتِبٌ kātibun 'writer'
+كُتَّابٌ kuttābun 'writer'
+مَكْتَبٌ maktabun 'desk, offic'
+مَكْتَبَةٌ maktabatun 'librari, bookshop'
+etc.
+noun and adject
+noun in literari arab have three grammat case (nomin, accus, and genit [also us when the noun is govern by a preposit]); three number (singular, dual and plural); two gender (masculin and feminin); and three "state" (indefinit, definit, and construct). the case of singular noun (other than those that end in long ā) ar indic by suffix short vowel (/-u/ for nomin, /-a/ for accus, /-i/ for genit).
+
+the feminin singular is often mark by ـَة /-at/, which is pronounc as /-ah/ befor a paus. plural is indic either through end (the sound plural) or intern modif (the broken plural). definit noun includ all proper noun, all noun in "construct state" and all noun which ar prefix by the definit articl اَلْـ /al-/. indefinit singular noun (other than those that end in long ā) add a final /-n/ to the case-mark vowel, give /-un/, /-an/ or /-in/ (which is also refer to as nunat or tanwīn).
+
+adject in literari arab ar mark for case, number, gender and state, as for noun. howev, the plural of all non-human noun is alwai combin with a singular feminin adject, which take the ـَة /-at/ suffix.
+
+pronoun in literari arab ar mark for person, number and gender. there ar two varieti, independ pronoun and enclit. enclit pronoun ar attach to the end of a verb, noun or preposit and indic verbal and preposit object or possess of noun. the first-person singular pronoun ha a differ enclit form us for verb (ـنِي /-nī/) and for noun or preposit (ـِي /-ī/ after conson, ـيَ /-ya/ after vowel).
+
+noun, verb, pronoun and adject agre with each other in all respect. howev, non-human plural noun ar grammat consid to be feminin singular. furthermor, a verb in a verb-initi sentenc is mark as singular regardless of it semant number when the subject of the verb is explicitli mention as a noun. numer between three and ten show "chiasmic" agreement, in that grammat masculin numer have feminin mark and vice versa.
+
+verb
+further inform: arab verb
+verb in literari arab ar mark for person (first, second, or third), gender, and number. thei ar conjug in two major paradigm (past and non-past); two voic (activ and passiv); and six mood (indic, imper, subjunct, jussiv, shorter energet and longer energet), the fifth and sixth mood, the energet, exist onli in classic arab but not in msa.[91] there ar also two participl (activ and passiv) and a verbal noun, but no infinit.
+
+the past and non-past paradigm ar sometim also term perfect and imperfect, indic the fact that thei actual repres a combin of tens and aspect. the mood other than the indic occur onli in the non-past, and the futur tens is signal by prefix سَـ sa- or سَوْفَ sawfa onto the non-past. the past and non-past differ in the form of the stem (e.g., past كَتَبـkatab- vs. non-past ـكْتُبـ -ktub-), and also us complet differ set of affix for indic person, number and gender: in the past, the person, number and gender ar fuse into a singl suffix morphem, while in the non-past, a combin of prefix (primarili encod person) and suffix (primarili encod gender and number) ar us. the passiv voic us the same person/number/gender affix but chang the vowel of the stem.
+
+the follow show a paradigm of a regular arab verb, كَتَبَ kataba 'to write'. in modern standard, the energet mood (in either long or short form, which have the same mean) is almost never us.
+
+deriv
+like other semit languag, and unlik most other languag, arab make much more us of nonconcaten morpholog (appli mani templat appli root) to deriv word than ad prefix or suffix to word.
+
+for verb, a given root can occur in mani differ deriv verb stem (of which there ar about fifteen), each with on or more characterist mean and each with it own templat for the past and non-past stem, activ and passiv participl, and verbal noun. these ar refer to by western scholar as "form i", "form ii", and so on through "form xv" (although form xi to xv ar rare). these stem encod grammat function such as the caus, intens and reflex. stem share the same root conson repres separ verb, albeit often semant relat, and each is the basi for it own conjug paradigm. as a result, these deriv stem ar part of the system of deriv morpholog, not part of the inflect system.
+
+exampl of the differ verb form from the root كتب k-t-b 'write' (us حمر ḥ-m-r 'red' for form ix, which is limit to color and physic defect):
+
+most of these form ar exclus classic arab
+form	past	mean	non-past	mean
+i	kataba	'he wrote'	yaktubu	'he write'
+ii	kattaba	'he made (someon) write'	yukattibu	"he make (someon) write"
+iii	kātaba	'he correspond with, wrote to (someon)'	yukātibu	'he correspond with, write to (someon)'
+iv	ʾaktaba	'he dictat'	yuktibu	'he dictat'
+v	takattaba	'nonexist'	yatakattabu	'nonexist'
+vi	takātaba	'he correspond (with someon, esp. mutual)'	yatakātabu	'he correspond (with someon, esp. mutual)'
+vii	inkataba	'he subscrib'	yankatibu	'he subscrib'
+viii	iktataba	'he copi'	yaktatibu	'he copi'
+ix	iḥmarra	'he turn red'	yaḥmarru	'he turn red'
+x	istaktaba	'he ask (someon) to write'	yastaktibu	'he ask (someon) to write'
+form ii is sometim us to creat transit denomin verb (verb built from noun); form v is the equival us for intransit denomin.
+
+the associ participl and verbal noun of a verb ar the primari mean of form new lexic noun in arab. thi is similar to the process by which, for exampl, the english gerund "meet" (similar to a verbal noun) ha turn into a noun refer to a particular type of social, often work-relat event where peopl gather togeth to have a "discuss" (anoth lexic verbal noun). anoth fairli common mean of form noun is through on of a limit number of pattern that can be appli directli to root, such as the "noun of locat" in ma- (e.g. maktab 'desk, offic' < k-t-b 'write', maṭbakh 'kitchen' < ṭ-b-kh 'cook').
+
+the onli three genuin suffix ar as follow:
+
+the feminin suffix -ah; various deriv term for women from relat term for men, or more gener term along the same line as the correspond masculin, e.g. maktabah 'librari' (also a write-relat place, but differ from maktab, as abov).
+the nisbah suffix -iyi-. thi suffix is extrem product, and form adject mean "relat to x". it correspond to english adject in -ic, -al, -an, -y, -ist, etc.
+the feminin nisbah suffix -iyyah. thi is form by ad the feminin suffix -ah onto nisba adject to form abstract noun. for exampl, from the basic root sh-r-k 'share' can be deriv the form viii verb ishtaraka 'to cooper, particip', and in turn it verbal noun ishtirāk 'cooper, particip' can be form. thi in turn can be made into a nisbah adject ishtirākī 'socialist', from which an abstract noun ishtirākiyyah 'social' can be deriv. other recent format ar jumhūriyyah 'republ' (lit. "public-ness", < jumhūr 'multitud, gener public'), and the gaddafi-specif variat jamāhīriyyah 'peopl's republ' (lit. "mass-ness", < jamāhīr 'the mass', pl. of jumhūr, as abov).
+colloqui varieti
+main articl: varieti of arab
+the spoken dialect have lost the case distinct and make onli limit us of the dual (it occur onli on noun and it us is no longer requir in all circumst). thei have lost the mood distinct other than imper, but mani have sinc gain new mood through the us of prefix (most often /bi-/ for indic vs. unmark subjunct). thei have also mostli lost the indefinit "nunat" and the intern passiv.
+
+the follow is an exampl of a regular verb paradigm in egyptian arab.
+
+exampl of a regular form i verb in egyptian arab, kátab/yíktib "write"
+tens/mood	past	present subjunct	present indic	futur	imper
+singular
+1st	katáb-t	á-ktib	bá-ktib	ḥá-ktib	"
+2nd	masculin	katáb-t	tí-ktib	bi-tí-ktib	ḥa-tí-ktib	í-ktib
+feminin	katáb-ti	ti-ktíb-i	bi-ti-ktíb-i	ḥa-ti-ktíb-i	i-ktíb-i
+3rd	masculin	kátab	yí-ktib	bi-yí-ktib	ḥa-yí-ktib	"
+feminin	kátab-it	tí-ktib	bi-tí-ktib	ḥa-tí-ktib
+plural
+1st	katáb-na	ní-ktib	bi-ní-ktib	ḥá-ní-ktib	"
+2nd	katáb-tu	ti-ktíb-u	bi-ti-ktíb-u	ḥa-ti-ktíb-u	i-ktíb-u
+3rd	kátab-u	yi-ktíb-u	bi-yi-ktíb-u	ḥa-yi-ktíb-u	"
+write system
+main articl: arab alphabet and arab braill
+
+arab calligraphi written by a malai muslim in malaysia. the calligraph is make a rough draft.
+the arab alphabet deriv from the arama through nabatean, to which it bear a loos resembl like that of coptic or cyril script to greek script. tradition, there were sever differ between the western (north african) and middl eastern version of the alphabet—in particular, the faʼ had a dot underneath and qaf a singl dot abov in the maghreb, and the order of the letter wa slightli differ (at least when thei were us as numer).
+
+howev, the old maghrebi variant ha been abandon except for calligraph purpos in the maghreb itself, and remain in us mainli in the quran school (zaouia) of west africa. arab, like all other semit languag (except for the latin-written maltes, and the languag with the ge'ez script), is written from right to left. there ar sever style of script such as thuluth, muhaqqaq, tawqi, rayhan and notabl naskh, which is us in print and by comput, and ruqʻah, which is commonli us for correspond.[92][93]
+
+origin arab wa made up of onli rasm without diacrit mark[94] later diacrit point (which in arab ar refer to as nuqaṯ) were ad (which allow reader to distinguish between letter such as b, t, th, n and y). final sign known as tashkil were us for short vowel known as harakat and other us such as final postnas or long vowel.
+
+calligraphi
+main articl: arab calligraphi
+after khalil ibn ahmad al farahidi final fix the arab script around 786, mani style were develop, both for the write down of the quran and other book, and for inscript on monument as decor.
+
+arab calligraphi ha not fallen out of us as calligraphi ha in the western world, and is still consid by arab as a major art form; calligraph ar held in great esteem. be cursiv by natur, unlik the latin script, arab script is us to write down a vers of the quran, a hadith, or simpli a proverb. the composit is often abstract, but sometim the write is shape into an actual form such as that of an anim. on of the current master of the genr is hassan massoudi.
+
+in modern time the intrins calligraph natur of the written arab form is haunt by the thought that a typograph approach to the languag, necessari for digit unif, will not alwai accur maintain mean convei through calligraphi.[95]
+
+roman
+main articl: roman of arab
+exampl of differ transliter/transcript scheme
+letter	ipa	ungegn	ala-lc	wehr	din	iso	sa	- 2	batr	arabtex	chat
+ء‎	ʔ	ʼ	ʾ	ˈ, ˌ	ʾ	'	e	'	2
+ا‎	aː	ā	ʾ	ā	aa	aa / a	a	a/e/é
+ي‎	j, iː	y	y; ī	y; e	y; ii	y	y; i/ee; ei/ai
+ث‎	θ	th	ṯ	ç	ṯ	c	_t	s/th
+ج‎	d͡ʒ~ɡ~ʒ	j	ǧ	ŷ	j	j	^g	j/g/dj
+ح‎	ħ	ḩ	ḥ	h	.h	7
+خ‎	x	kh	ḵ	ḫ	ẖ	j	x	k	_h	kh/7'/5
+ذ‎	ð	dh	ḏ	đ	z'	_d	z/dh/th
+ش‎	ʃ	sh	š	x	^s	sh/ch
+ص‎	sˤ	ş	ṣ	s	.s	s/9
+ض‎	dˤ	ḑ	ḍ	d	.d	d/9'
+ط‎	tˤ	ţ	ṭ	t	.tu	t/6
+ظ‎	ðˤ~zˤ	z̧	ẓ	đ̣	z	.z	z/dh/6'
+ع‎	ʕ	ʻ	ʿ	ř	e	'	3
+غ‎	ɣ	gh	ḡ	ġ	g	j	g	.g	gh/3'/8
+there ar a number of differ standard for the roman of arab, i.e. method of accur and effici repres arab with the latin script. there ar variou conflict motiv involv, which lead to multipl system. some ar interest in transliter, i.e. repres the spell of arab, while other focu on transcript, i.e. repres the pronunci of arab. (thei differ in that, for exampl, the same letter ي‎ is us to repres both a conson, as in "you" or "yet", and a vowel, as in "me" or "eat".) some system, e.g. for scholarli us, ar intend to accur and unambigu repres the phonem of arab, gener make the phonet more explicit than the origin word in the arab script. these system ar heavili reliant on diacrit mark such as "š" for the sound equival written sh in english. other system (e.g. the bahá'í orthographi) ar intend to help reader who ar neither arab speaker nor linguist with intuit pronunci of arab name and phrase.[citat need] these less "scientif" system tend to avoid diacrit and us digraph (like sh and kh). these ar usual simpler to read, but sacrific the definit of the scientif system, and mai lead to ambigu, e.g. whether to interpret sh as a singl sound, as in gash, or a combin of two sound, as in gashous. the ala-lc roman solv thi problem by separ the two sound with a prime symbol ( ′ ); e.g., as′hal 'easier'.
+
+dure the last few decad and especi sinc the 1990s, western-invent text commun technolog have becom preval in the arab world, such as person comput, the world wide web, email, bulletin board system, irc, instant messag and mobil phone text messag. most of these technolog origin had the abil to commun us the latin script onli, and some of them still do not have the arab script as an option featur. as a result, arab speak user commun in these technolog by transliter the arab text us the latin script, sometim known as im arab.
+
+to handl those arab letter that cannot be accur repres us the latin script, numer and other charact were appropri. for exampl, the numer "3" mai be us to repres the arab letter ⟨ع‎⟩. there is no univers name for thi type of transliter, but some have name it arab chat alphabet. other system of transliter exist, such as us dot or capit to repres the "emphat" counterpart of certain conson. for instanc, us capit, the letter ⟨د‎⟩, mai be repres by d. it emphat counterpart, ⟨ض‎⟩, mai be written as d.
+
+numer
+in most of present-dai north africa, the western arab numer (0, 1, 2, 3, 4, 5, 6, 7, 8, 9) ar us. howev, in egypt and arab-speak countri to the east of it, the eastern arab numer (٠‎ – ١‎ – ٢‎ – ٣‎ – ٤‎ – ٥‎ – ٦‎ – ٧‎ – ٨‎ – ٩‎) ar in us. when repres a number in arab, the lowest-valu posit is place on the right, so the order of posit is the same as in left-to-right script. sequenc of digit such as telephon number ar read from left to right, but number ar spoken in the tradit arab fashion, with unit and ten revers from the modern english usag. for exampl, 24 is said "four and twenti" just like in the german languag (vierundzwanzig) and classic hebrew, and 1975 is said "a thousand and nine-hundr and five and seventi" or, more eloqu, "a thousand and nine-hundr five seventi"
+
+languag-standard regul
+see also: arab languag intern council
+academi of the arab languag is the name of a number of languag-regul bodi form in the arab leagu. the most activ ar in damascu and cairo. thei review languag develop, monitor new word and approv inclus of new word into their publish standard dictionari. thei also publish old and histor arab manuscript.
+
+as a foreign languag
+arab ha been taught worldwid in mani elementari and secondari school, especi muslim school. univers around the world have class that teach arab as part of their foreign languag, middl eastern studi, and religi studi cours. arab languag school exist to assist student to learn arab outsid the academ world. there ar mani arab languag school in the arab world and other muslim countri. becaus the quran is written in arab and all islam term ar in arab, million[96] of muslim (both arab and non-arab) studi the languag. softwar and book with tape ar also import part of arab learn, as mani of arab learner mai live in place where there ar no academ or arab languag school class avail. radio seri of arab languag class ar also provid from some radio station.[97] a number of websit on the internet provid onlin class for all level as a mean of distanc educ; most teach modern standard arab, but some teach region varieti from numer countri.[98]
+
+statu in the arab world vs. other languag
+with the sole exampl of mediev linguist abu hayyan al-gharnati – who, while a scholar of the arab languag, wa not ethnic arab – mediev scholar of the arab languag made no effort at studi compar linguist, consid all other languag inferior.[99]
+
+in modern time, the educ upper class in the arab world have taken a nearli opposit view. yasir suleiman wrote in 2011 that "studi and know english or french in most of the middl east and north africa have becom a badg of sophist and modern and ... feign, or assert, weak or lack of facil in arab is sometim parad as a sign of statu, class, and pervers, even educ through a mélang of code-switch practis."[100]
+
+see also
+	islam portal
+arab ontolog
+arab diglossia
+arab influenc on the spanish languag
+arab literatur
+arab–english lexicon
+arabist
+dictionari of modern written arab
+glossari of islam
+intern associ of arab dialectolog
+list of arab newspap
+list of arab-languag televis channel
+list of arab given name
+list of arabophon
+list of countri where arab is an offici languag
+list of french word of arab origin
+list of replac loanword in turkish
+refer
+citat
+ "arab – ethnologu". ethnologu. simon, gari f. and charl d. fennig (ed.). 2018. ethnologu: languag of the world, 21st edit. archiv from the origin on 5 januari 2016. retriev 21 februari 2018.
+ "basic law: israel - the nation state of the jewish peopl" (pdf). knesset. 19 juli 2018. archiv (pdf) from the origin on 10 april 2021. retriev 13 januari 2021.
+ semit languag: an intern handbook / edit by stefan wening; in collabor with geoffrei khan, michael p. streck, janet c. e.watson; walter de gruyter gmbh & co. kg, berlin/boston, 2011.
+ "al-jallad. the earliest stage of arab and it linguist classif (routledg handbook of arab linguist, forthcom)". archiv from the origin on 23 octob 2017. retriev 27 octob 2016.
+ macdonald, michael c. a. "arabian, arabia, and the greek_contact and percept": 16–17.
+ "document for iso 639 identifi: ara". archiv from the origin on 3 march 2016. retriev 20 march 2018.
+ kamusella, tomasz (2017). "the arab languag: a latin of modern?" (pdf). journal of nation, memori & languag polit. 11 (2): 117–145. doi:10.1515/jnmlp-2017-0006. s2cid 158624482. archiv (pdf) from the origin on 12 decemb 2019. retriev 28 june 2019.
+ wright (2001:492)
+ "maltes languag". encyclopedia britannica. archiv from the origin on 24 septemb 2019. retriev 21 decemb 2019.
+ versteegh, kee; versteegh, c. h. m. (1997). the arab languag. columbia univers press. isbn 9780231111522. ... of the qufdn; mani arab loanword in the indigen languag, as in urdu and indonesian, were introduc mainli through the medium of persian.
+ bhabani charan rai (1981). "appendix b persian, turkish, arab word gener us in oriya". orissa under the mughal: from akbar to alivardi : a fascin studi of the socio-econom and cultur histori of orissa. orissan studi project, 10. calcutta: punthi pustak. p. 213. oclc 461886299.
+ "what ar the offici languag of the unit nation? - ask dag!". ask.un.org. archiv from the origin on 5 februari 2016. retriev 21 decemb 2019.
+ "christian 2015: religi divers and person contact" (pdf). gordonconwel.edu. januari 2015. archiv from the origin (pdf) on 25 mai 2017. retriev 29 mai 2015.
+ "execut summari". futur of the global muslim popul. pew research center. 27 januari 2011. archiv from the origin on 5 august 2013. retriev 22 decemb 2011.
+ "tabl: muslim popul by countri". pew research center's religion & public life project. 27 januari 2011. archiv from the origin on 1 august 2013. retriev 18 mai 2014.
+ "un offici languag". un.org. 18 novemb 2014. archiv from the origin on 17 octob 2015. retriev 18 octob 2015.
+ "world arab languag dai". unesco. 18 decemb 2014. archiv from the origin on 27 octob 2017. retriev 12 februari 2014.
+ al-jallad, ahmad (2015). an outlin of the grammar of the safait inscript. brill. isbn 978-90-04-28982-6. archiv from the origin on 23 juli 2016. retriev 17 juli 2016.
+ al-jallad, ahmad. "al-jallad. the earliest stage of arab and it linguist classif (routledg handbook of arab linguist, forthcom)". archiv from the origin on 23 octob 2017. retriev 15 juli 2016.
+ al-jallad, ahmad. "al-jallad. 2014. on the genet background of the rbbl bn hfʿm grave inscript at qaryat al-fāw". bsoa.
+ al-jallad, ahmad. "al-jallad (draft) remark on the classif of the languag of north arabia in the 2nd edit of the semit languag (ed. j. huehnergard and n. pat-el)".
+ "examin the origin of arab ahead of arab languag dai". the nation. 15 decemb 2016. archiv from the origin on 20 april 2021. retriev 20 april 2021.
+ "linteau de port". musé du louvr. archiv from the origin on 20 april 2021. retriev 20 april 2021.
+ al-jallad, ahmad. "on wāw to rule them all: the origin and fate of wawat in arab and it orthographi".
+ nehmé, laila. ""a glimps of the develop of the nabataean script into arab base on old and new epigraph materi", in m.c.a. macdonald (ed), the develop of arab as a written languag (supplement to the proceed of the seminar for arabian studi, 40). oxford: 47-88". supplement to the proceed of the seminar for arabian studi.
+ lentin, jérôme (30 mai 2011). "middl arab". encyclopedia of arab languag and linguist. brill refer. archiv from the origin on 15 august 2016. retriev 17 juli 2016.
+ al-jallad, ahmad (30 mai 2011). "polygenesi in the arab dialect". encyclopedia of arab languag and linguist. brill refer. archiv from the origin on 15 august 2016. retriev 17 juli 2016.
+ versteegh, kee (2014). the arab languag. edinburgh univers press. isbn 978-0-7486-4529-9. archiv from the origin on 4 octob 2018. retriev 16 mai 2017.
+ retsö, jan (1989). diathesi in the semit languag: a compar morpholog studi. brill. isbn 978-90-04-08818-4. archiv from the origin on 4 octob 2018. retriev 16 mai 2017.
+ ibn khaldūn, 1332-1406, author. (27 april 2015). the muqaddimah : an introduct to histori. isbn 978-0-691-16628-5. oclc 913459792.
+ قصة أول خطاب باللغة العربية في الأمم المتحدة ألقاه جمال عبد الناصر. دنيا الوطن (in arab). archiv from the origin on 20 februari 2020. retriev 20 februari 2020.
+ لقاء طه حسين مع ليلى رستم ونجوم الأدب. www.msn.com. archiv from the origin on 20 februari 2020. retriev 20 februari 2020.
+ okerson, ann (2009). "earli arab print: movabl type & lithographi". yale univers librari. archiv from the origin on 18 februari 2020. retriev 20 februari 2020.
+ sawai, moham (30 mai 2011). "languag academi". encyclopedia of arab languag and linguist. archiv from the origin on 27 februari 2021. retriev 20 februari 2020.
+ unesco (31 decemb 2019). بناء مجتمعات المعرفة في المنطقة العربية (in arab). unesco publish. isbn 978-92-3-600090-9. archiv from the origin on 5 april 2021. retriev 31 march 2021.
+ tilmatin, mohand, "arab and linguist domin: berber and arab in the north of africa", languag empir in compar perspect, berlin, münchen, boston: de gruyter, pp. 1–16, isbn 978-3-11-040836-2, retriev 19 april 2021
+ seri-hersch, iri (2 decemb 2020). "arab and islam in the make of the sudanes "postcoloni" state (1946-1964)". cahier d'étude africain (240): 779–804. doi:10.4000/etudesafricain.32202. issn 0008-0055.
+ kamusella, tomasz (2017). "the arab languag: a latin of modern?" (pdf). journal of nation, memori & languag polit. 11 (2): 117–145. doi:10.1515/jnmlp-2017-0006. s2cid 158624482. archiv (pdf) from the origin on 12 decemb 2019. retriev 28 june 2019.
+ abdulkafi albirini. 2016. modern arab sociolinguist (pp. 34–35).
+ tomasz kamusella. 2017. the arab languag: a latin of modern? archiv 29 march 2019 at the wayback machin (pp. 117–145). journal of nation, memori and languag polit. vol. 11, no 2.
+ kay (1991:?)
+ "arab languag." microsoft encarta onlin encyclopedia 2009.
+ trentman, e. and shiri, s., 2020. the mutual intellig of arab dialect. critic multilingu studi, 8(1), pp.104-134.
+ jenkin, orvil boyd (18 march 2000), popul analysi of the arab languag, archiv from the origin on 18 march 2009, retriev 12 march 2009
+ arab languag and linguist. georgetown univers press. 2012. isbn 9781589018853. jstor j.ctt2tt3zh.
+ janet c.e. watson, the phonolog and morpholog of arab archiv 14 april 2016 at the wayback machin, introduct, p. xix. oxford: oxford univers press, 2007. isbn 978-0-19-160775-2
+ proceed and debat of the archiv 14 april 2016 at the wayback machin 107th unit state congress congression record, p. 10,462. washington, dc: unit state govern print offic, 2002.
+ shalom staub, yemeni in new york citi: the folklor of ethnic archiv 14 april 2016 at the wayback machin, p. 124. philadelphia: balch institut for ethnic studi, 1989. isbn 978-0-944190-05-0
+ daniel newman, arab-english themat lexicon archiv 13 april 2016 at the wayback machin, p. 1. london: routledg, 2007. isbn 978-1-134-10392-8
+ rebecca l. torstrick and elizabeth faier, cultur and custom of the arab gulf state archiv 14 april 2016 at the wayback machin, p. 41. santa barbara: abc-clio, 2009. isbn 978-0-313-33659-1
+ walter j. ong, interfac of the word: studi in the evolut of conscious and cultur archiv 14 april 2016 at the wayback machin, p. 32. ithaca, ny: cornel univers press, 2012. isbn 978-0-8014-6630-4
+ clive hole, modern arab: structur, function, and varieti, p. 3. washington, dc: georgetown univers press, 2004. isbn 978-1-58901-022-2
+ nizar y. habash,introduct to arab natur languag process, pp. 1–2. san rafael, ca: morgan & claypool, 2010. isbn 978-1-59829-795-9
+ bernard bate, tamil oratori and the dravidian aesthet: democrat practic in south india, pp. 14–15. new york: columbia univers press, 2013. isbn 978-0-231-51940-3
+ luca c, manfredi s, ed. (2020). arab and contact-induc chang (pdf). berlin: languag scienc press. doi:10.5281/zenodo.3744565. isbn 978-3-96110-252-5. archiv from the origin on 16 januari 2021. retriev 7 januari 2021.
+ "teach arab in franc". the economist. archiv from the origin on 25 septemb 2018. retriev 26 septemb 2018.
+ "macron govern is contempl offer arab lesson in public school, educ minist sai". newsweek. archiv from the origin on 12 januari 2019. retriev 7 april 2021.
+ "top 50 english word – of arab origin". blog.transpar.com. arab languag blog. archiv from the origin on 15 decemb 2018. retriev 14 decemb 2018.
+ eb staff. "maltes languag – britannica onlin encyclopedia". britannica.com. archiv from the origin on 5 june 2008. retriev 4 mai 2010.
+ gregersen (1977:237)
+ see the semin studi by siegmund fraenkel, die aramäischen fremdwörter im arabischen, leiden 1886 (repr. 1962)
+ see for instanc wilhelm eiler, "iranisch lehngut im arabischen", acta iv. congresso de estudo árabe et islâmico, coimbra, lisboa, leiden 1971, with earlier refer.
+ shrivtiel, shraybom (1998). the question of romanis of the script and the emerg of nation in the middl east. mediterranean languag review. pp. 179–196.
+ shrivtiel, p. 188
+ shrivtiel, p. 189
+ nicholson, reynold. a literari histori of the arab. the syndic of the cambridg univers press.
+ allen, roger (2000). an introduct to arab literatur (1. publ. ed.). cambridg [u.a.]: cambridg univ. press. isbn 978-0-521-77657-8.
+ cobham, adoni; translat from the arab by catherin (1990). an introduct to arab poetic (1st ed.). austin: univers of texa press. isbn 978-0-292-73859-1.
+ "arab – the mother of all languag – al islam onlin". alislam.org. archiv from the origin on 30 april 2010. retriev 4 mai 2010.
+ ferguson, charl (1959), "the arab koin", languag, 35 (4): 616–630, doi:10.2307/410601, jstor 410601
+ arab, egyptian spoken (18th ed.). ethnologu. 2006. archiv from the origin on 25 februari 2015. retriev 28 januari 2015.
+ borg, albert j.; azzopardi-alexand, mari (1997). maltes. routledg. isbn 0-415-02243-6.
+ borg and azzopardi-alexand (1997). maltes. routledg. p. xiii. isbn 978-0-415-02243-9. in fact, maltes displai some areal trait typic of maghrebin arab, although over the past 800 year of independ evolut it ha drift apart from tunisian arab
+ brincat, 2005. maltes – an unusu formula. archiv from the origin on 8 decemb 2015. retriev 17 februari 2018. origin maltes wa an arab dialect but it wa immedi expos to latinis becaus the norman conquer the island in 1090, while christianis, which wa complet by 1250, cut off the dialect from contact with classic arab. consequ maltes develop on it own, slowli but steadili absorb new word from sicilian and italian accord to the need of the develop commun.
+ robert d hoberman (2007). morpholog of asia and africa, alan s. kay (ed.), chapter 13: maltes morpholog. eisenbrown. isbn 978-1-57506-109-2. archiv from the origin on 4 octob 2018. maltes is the chief except: classic or standard arab is irrelev in the maltes linguist commun and there is no diglossia.
+ robert d hoberman (2007). morpholog of asia and africa, alan s. kay (ed.), chapter 13: maltes morpholog. eisenbrown. isbn 978-1-57506-109-2. archiv from the origin on 4 octob 2018. yet it is in it morpholog that maltes also show the most elabor and deepli embed influenc from the romanc languag, sicilian and italian, with which it ha long been in intim contact….as a result maltes is uniqu and differ from arab and other semit languag.
+ "mutual intellig of spoken maltes, libyan arab and tunisian arab function test: a pilot studi". p. 1. archiv from the origin on 11 octob 2017. retriev 23 septemb 2017. to summaris our find, we might observ that when it come to the most basic everydai languag, as reflect in our data set, speaker of maltes ar abl to understand less than a third of what is be said to them in either tunisian or benghazi libyan arab.
+ "mutual intellig of spoken maltes, libyan arab and tunisian arab function test: a pilot studi". p. 1. archiv from the origin on 11 octob 2017. retriev 23 septemb 2017. speaker of tunisian and libyan arab ar abl to understand about 40% of what is said to them in maltes.
+ "mutual intellig of spoken maltes, libyan arab and tunisian arab function test: a pilot studi". p. 1. archiv from the origin on 11 octob 2017. retriev 23 septemb 2017. in comparison, speaker of libyan arab and speaker of tunisian arab understand about two-third of what is be said to them.
+ isserlin (1986). studi in islam histori and civil, isbn 965-264-014-x
+ campbel, lyle; gordon, raymond g. (2008). "review of ethnologu: languag of the world, raymond g. gordon jr". languag. 84 (3): 636–641. issn 0097-8507.
+ m�ller-kessler, christa (2003). "arama ?k?, lyk? and iraqi arab ?aku, maku: the mesopotamian particl of exist". journal of the american orient societi. 123 (3): 641–646. doi:10.2307/3217756. issn 0003-0279. replac charact in |last= at posit 2 (help)
+ lipinski (1997:124)
+ al-jallad, 42
+ watson (2002:5, 15–16)
+ watson (2002:2)
+ watson (2002:16)
+ watson (2002:18)
+ ferguson, charl (1959), "the arab koin", languag, 35 (4): 630, doi:10.2307/410601, jstor 410601
+ e.g., thelwal (2003:52)
+ rydin, karin c. (2005). a refer grammar of modern standard arab. new york: cambridg univers press.
+ tabbaa, yasser (1991). "the transform of arab write: part i, qur'ānic calligraphi". ar orientali. 21: 119–148. issn 0571-1371. jstor 4629416.
+ hanna & grei (1972:2)
+ ibn warraq (2002). ibn warraq (ed.). what the koran realli sai : languag, text & commentari. translat by ibn warraq. new york: prometheu. p. 64. isbn 157392945x. archiv from the origin on 11 april 2019.
+ osborn, j.r. (2009). "narr of arab script: calligraph design and modern space". design and cultur. 1 (3): 289–306. doi:10.1080/17547075.2009.11643292. s2cid 147422407.
+ m. ed., loyola univers-maryland; b. s., child develop. "the import of the arab languag in islam". learn religion. archiv from the origin on 1 februari 2009. retriev 7 januari 2021.
+ quesada, thoma c. arab keyboard (atlanta ed.). madisonvil: peter jone. p. 49. archiv from the origin on 27 septemb 2007. retriev 11 octob 2012.
+ "review of languag cours". lang1234. retriev 12 septemb 2012.
+ kee versteegh, the arab linguist tradit, p. 106. part of landmark in linguist thought seri, vol. 3. new york: routledg, 1997. isbn 978-0-415-15757-5
+ suleiman, p. 93 archiv 14 april 2016 at the wayback machin
+sourc
+as-sabil, archiv from the origin on 25 april 2016, retriev 22 june 2016
+bateson, mari catherin (2003), arab languag handbook, georgetown univers press, isbn 978-0-87840-386-8
+durand, olivi; langon, angela d.; mion, giuliano (2010), corso di arabo contemporaneo. lingua standard (in italian), milan: hoepli, isbn 978-88-203-4552-5
+gregersen, edgar a. (1977), languag in africa, crc press, isbn 978-0-677-04380-7
+grigor, georg (2007), l'arab parlé à mardin. monographi d'un parler arab périphériqu, bucharest: editura universitatii din bucuresti, isbn 978-973-737-249-9, archiv from the origin on 27 septemb 2007
+hanna, sami a.; grei, naguib (1972), write arab: a linguist approach, from sound to script, brill archiv, isbn 978-90-04-03589-8
+haywood; nahmad (1965), a new arab grammar, london: lund humphri, isbn 978-0-85331-585-8
+hetzron, robert (1997), the semit languag (illustr ed.), taylor & franci, isbn 978-0-415-05767-7
+irwin, robert (2006), for lust of know, london: allen lane
+kaplan, robert b.; baldauf, richard b. (2007), languag plan and polici in africa, multilingu matter, isbn 978-1-85359-726-8
+kay, alan s. (1991), "the hamzat al-waṣl in contemporari modern standard arab", journal of the american orient societi, 111 (3): 572–574, doi:10.2307/604273, jstor 604273
+lane, edward william (1893), arab–english lexicon (2003 reprint ed.), new delhi: asian educ servic, isbn 978-81-206-0107-9, archiv from the origin on 10 decemb 2013
+lipinski, edward (1997), semit languag, leuven: peeter
+mion, giuliano (2007), la lingua araba (in italian), rome: carocci, isbn 978-88-430-4394-1
+mumisa, michael (2003), introduc arab, goodword book, isbn 978-81-7898-211-3
+procházka, s. (2006), ""arab"", encyclopedia of languag and linguist (2nd ed.)
+steingass, franci joseph (1993), arab–english dictionari, asian educ servic, isbn 978-81-206-0855-9, archiv from the origin on 3 april 2013, retriev 21 septemb 2020
+suileman, yasir. arab, self and ident: a studi in conflict and displac. oxford univers press, 2011. isbn 0-19-974701-6, 978-0-19-974701-6.
+thelwal, robin (2003). "arab". handbook of the intern phonet associ a guid to the us of the intern phonet alphabet. cambridg: cambridg univers press. isbn 978-0-521-63751-0.
+traini, r. (1961), vocabolario di arabo [dictionari of modern written arab] (in italian), rome: i.p.o., harassowitz
+vaglieri, laura veccia, grammatica teorico-pratica della lingua araba, rome: i.p.o.
+versteegh, kee (1997), the arab languag, edinburgh univers press, isbn 978-90-04-17702-4
+watson, janet (2002), the phonolog and morpholog of arab, new york: oxford univers press, isbn 978-0-19-824137-9
+wehr, han (1952), arabisch wörterbuch für die schriftsprach der gegenwart: arabisch-deutsch (1985 reprint (english) ed.), harassowitz, isbn 978-3-447-01998-9
+wright, john w. (2001), the new york time almanac 2002, routledg, isbn 978-1-57958-348-4
+extern link
+	standard arab edit of wikipedia, the free encyclopedia
+	egyptian arab edit of wikipedia, the free encyclopedia
+	moroccan arab edit of wikipedia, the free encyclopedia
+	algerian arab test of wikipedia at wikimedia incub
+	south levantin arab test of wikipedia at wikimedia incub
+	north levantin arab test of wikipedia at wikimedia incub
+	tunisian arab test of wikipedia at wikimedia incub
+	for a list of word relat to arab, see the arab categori of word in wiktionari, the free dictionari.
+	wikivers ha learn resourc about arab
+	wikibook ha a book on the topic of: arab
+	wikimedia common ha media relat to arab languag.
+	wikiquot ha quotat relat to: arab
+	wikivoyag ha a phrasebook for arab.
+dr. nizar habash's, columbia univers, introduct to arab natur languag process
+googl ta3reeb – googl transliter
+transliter arab languag pronunci applet
+alexi neme (2011), a lexicon of arab verb construct on the basi of semit taxonomi and us finit-state transduc
+alexi neme and eric laport (2013), pattern-and-root inflect morpholog: the arab broken plural
+alexi neme and eric laport (2015), do comput scientist deepli understand arab morpholog? – هل يفهم المهندسون الحاسوبيّون علم الصرف فهماً عميقاً؟‎, avail also in arab, indonesian, french
+jastrow, morri (1905). "arab languag and literatur" . new intern encyclopedia.
+arab manuscript, ua 5572 at l. tom perri special collect, brigham young univers onlin arab keyboard
+catafago, joseph (1873). an english and arab dictionari. archiv.org (in english and arab) (2nd ed.). london, england: bernard quaritch. p. 1114. archiv from the origin on 19 octob 2018. retriev 18 octob 2018. (bilingu dictionari)
+vte
+arab languag
+vte
+arab languag book
+vte
+varieti of arab
+vte
+histori of the world's languag
+vte
+modern semit languag
+vte
+semit languag
+author control edit thi at wikidata	
+gnd: 4241223-7ma: 96455323ndl: 00560295sudoc: 027219623
+categori: arab languagelanguag attest from the 9th centuri bccentral semit languagesfusion languageslanguag of algerialanguag of bahrainlanguag of cameroonlanguag of chadlanguag of the comoroslanguag of djiboutilanguag of eritrealanguag of gibraltarlanguag of israellanguag of iranlanguag of iraqlanguag of jordanlanguag of kurdistanlanguag of kuwaitlanguag of lebanonlanguag of libyalanguag of malilanguag of mauritanialanguag of moroccolanguag of nigerlanguag of omanlanguag of the state of palestinelanguag of qatarlanguag of saudi arabialanguag of senegallanguag of south sudanlanguag of sicilylanguag of somalialanguag of sudanlanguag of syrialanguag of the unit arab emirateslanguag of tunisialanguag of yemenstress-time languagessubject–verb–object languagesverb–subject–object languag
+navig menu
+not log in
+talk
+contribut
+creat account
+log in
+articletalk
+readview sourceview historysearch
+search wikipedia
+main page
+content
+current event
+random articl
+about wikipedia
+contact us
+donat
+contribut
+help
+learn to edit
+commun portal
+recent chang
+upload file
+tool
+what link here
+relat chang
+special page
+perman link
+page inform
+cite thi page
+wikidata item
+print/export
+download as pdf
+printabl version
+in other project
+wikimedia common
+wikibook
+wikiquot
+wikivers
+wikivoyag
+
+languag
+العربية
+башҡортса
+ελληνικά
+فارسی
+हिन्दी
+مصرى
+bahasa melayu
+türkçe
+中文
+221 more
+edit link
+thi page wa last edit on 22 mai 2021, at 00:54 (utc).
+text is avail under the creativ common attribut-sharealik licens; addit term mai appli. by us thi site, you agre to the term of us and privaci polici. wikipedia® is a regist trademark of the wikimedia foundat, inc., a non-profit organ.
+privaci policyabout wikipediadisclaimerscontact wikipediamobil viewdevelopersstatisticscooki statementwikimedia foundationpow by mediawiki
+taymanit wa the languag and script of the oasi of taymāʾ in northwestern arabia, date to the second half of the 6th centuri bce.
