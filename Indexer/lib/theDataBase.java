@@ -14,7 +14,7 @@ import java.sql.PreparedStatement;
 
 // ! DON'T FORGET:
 // ! Create table indexer;
-// table indexer: term, docnum, indx, priority
+// # table indexer: term, docnum, indx, priority
 
 // Database initializer class
 public class theDataBase {
@@ -56,14 +56,14 @@ public class theDataBase {
     public ArrayList<String> getFileNames() {
         ArrayList<String> result = null;
         try {
-            ps = theConnection.prepareStatement("SELECT URL FROM FOUNDSITES;");
+            ps = theConnection.prepareStatement("SELECT HASH_VALUE FROM FOUNDSITES;");
             rs = ps.executeQuery();
             result = new ArrayList<>();
             while (rs.next()) {
-                result.add(rs.getString(1));
+                result.add(rs.getString(1) + ".txt");
             }
         } catch (Exception e) {
-            System.out.println("Error selecting URL");
+            System.out.println("Error selecting HASH_VALUE");
         }
         return result;
     }
@@ -78,18 +78,15 @@ public class theDataBase {
         }
     }
 
-    // TODO: use array of indecies instead of in-place indecies in order to get true
-    // TODO: indecies in the original file
-    // TODO: (This is because stopped words are ommited)
-    public void insertIndexedFile(ArrayList<String> words, int DocNum, int priorities) {
+    public void insertIndexedFile(ArrayList<String> words, ArrayList<Integer> indecies, int DocNum, int priorities) {
         for (int i = 0; i < words.size(); i++) {
             // initial statement
             String query = new String("INSERT INTO INDEXER (term,docnum,indx,wordrank) VALUES('" + words.get(i) + "', "
-                    + (DocNum) + ", " + (i) + ", " + (priorities) + ")");
+                    + (DocNum) + ", " + (indecies.get(i)) + ", " + (priorities) + ")");
             i++;
             // add Constants.rowsPerQuery statements
             for (int j = 1; j < Constants.rowsPerQuery && i < words.size(); i++, j++) {
-                query += ",('" + words.get(i) + "', " + (DocNum) + ", " + (i) + ", " + (priorities) + ")";
+                query += ",('" + words.get(i) + "', " + (DocNum) + ", " + (indecies.get(i)) + ", " + (priorities) + ")";
             }
             i--;// will be increased again next loop
             query += ";";
@@ -119,6 +116,48 @@ public class theDataBase {
         }
     }
 
+    // TODO YOU MUST STEM TERM
+    // ! didn't try it yet
+    public int TF(String term, int docNum) {
+        if ((term = FilterString.termOk(term)) == "") {
+            return 0;
+        }
+        try {
+            ps = theConnection.prepareStatement(
+                    "SELECT COUNT * FROM INDEXER WHERE TERM = '" + term + "' AND DOCNUM = " + docNum + ";");
+            rs = ps.executeQuery();
+            if (rs.next()) {
+                return Integer.parseInt(rs.getString(1));
+            }
+        } catch (Exception e) {
+            System.out.println("Error selecting HASH_VALUE");
+        }
+        return 0;
+    }
+    
+    // TODO stem the coming word or send it stemmed
+    // $$$$$$$$$$$$$$$$$$$$$$$$$$$$
+    // return array of document hashes
+    // $$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+    public ArrayList<Integer> searchFor(String term){
+        term = FilterString.termOk(term);
+        if(term == ""){
+            return null;
+        }
+        ArrayList<Integer> result = null;
+        try {
+            // $ IMPORTANT SQL QUERY
+            ps = theConnection.prepareStatement("SELECT DOCNUM FROM INDEXER WHERE term = '"+term+"';");
+            rs = ps.executeQuery();
+            result = new ArrayList<>();
+            while (rs.next()) {
+                result.add(Integer.parseInt(rs.getString(1)) );
+            }
+        } catch (Exception e) {
+            System.out.println("Error selecting HASH_VALUE");
+        }
+        return result;
+    }
     public static void main(String[] args) {
         theDataBase db = new theDataBase();
         db.insertWord("hello", 1, 1, 1);

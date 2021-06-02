@@ -47,7 +47,7 @@ public class ReadFile {
     public static void main(String[] args) {
         // ReadFile file = new ReadFile("Files/in1.txt");
         // System.out.println(file.file); 
-        ReadFile file = new ReadFile("Files/Extract.html",true);
+        ReadFile file = new ReadFile(Constants.filesDir+"in5.html",true);
         System.out.println(file.file);
     }
 }

@@ -24,11 +24,12 @@ public class Indexer implements Runnable {
         for (int i = this.start; i < this.end; i++) {
             // read the output of the stemmer
             ReadFile rFile = new ReadFile(Constants.stemmedDir + this.Docs.get(i));
-
+            // indx of words
+            Integer indx = 0;
             // array of lines
             String[] lines = rFile.file.split("\n");
             ArrayList<String> fileTerms = new ArrayList<>();
-
+            ArrayList<Integer> takenWordsIndecies = new ArrayList<>();
             // array of words
             for (int j = 0; j < lines.length; j++) {
                 String[] terms = lines[j].split(" ");
@@ -36,12 +37,15 @@ public class Indexer implements Runnable {
                     String ok = FilterString.termOk(terms[k]);
                     if (ok != "") {
                         fileTerms.add(ok);
+                        takenWordsIndecies.add(indx);
                     }
+                    // true index in the original document
+                    indx++;
                 }
             }
 
-            // insert array of words in the database
-            db.insertIndexedFile(fileTerms, i, 0);
+            // insert array of words in the database & remove .txt from its name
+            db.insertIndexedFile(fileTerms,takenWordsIndecies, Integer.parseInt(this.Docs.get(i).replace(".txt", "")), 0);
         }
     }
 

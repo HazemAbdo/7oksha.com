@@ -576,7 +576,7 @@ class PorterStemmer {
     public String stem(String filePath) {
         String outFile = new String();
         char[] w = new char[501];
-        ReadFile inFile = new ReadFile(filePath);
+        ReadFile inFile = new ReadFile(filePath,true);
         PorterStemmer s = new PorterStemmer();
         int fileIndex = 0;
         if (inFile.file.length() == 0) {

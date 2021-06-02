@@ -1,0 +1,1 @@
+html stand for hyper text markup languag. it is us to creat a web page and applic. thi languag is easili understand by the user and also be modifi. it is actual a markup languag, henc it provid a flexibl wai for design the web page along with the text. html file is made up of differ element. an element is a collect of start tag, end tag, attribut and the text between them
