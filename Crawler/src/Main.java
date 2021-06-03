@@ -4,7 +4,7 @@ public class Main {
     {
         ArrayList<Crawler> bots=new ArrayList<>();
 
-        for(int i=0;i<3;i++)
+        for(int i=0;i<8;i++)
         {
             bots.add(new Crawler(i));
         }

@@ -17,10 +17,10 @@ public class theDataBase {
             }
             catch (Exception e)
             {
-                System.out.println(e.toString());
+             // System.out.println(e.toString());
                 if(theConnection==null)
                 {
-                System.out.println("AAAAAAA1");
+             // System.out.println("AAAAAAA1");
                 }
             }
             try {
@@ -28,9 +28,9 @@ public class theDataBase {
             }
             catch (Exception e)
             {
-                System.out.println(e.toString());
+             // System.out.println(e.toString());
                 if(theStatement==null) {
-                    System.out.println("AAAAAAA2");
+                 // System.out.println("AAAAAAA2");
                 }
             }
         }
@@ -42,14 +42,14 @@ public class theDataBase {
                 rs=ps.executeQuery();
                 while(rs.next())
                 {
-                    System.out.println(rs.getString(1)+"   "+ rs.getString(2)); //here you can get data, the '1' indicates column number based on your query
+                 // System.out.println(rs.getString(1)+"   "+ rs.getString(2)); //here you can get data, the '1' indicates column number based on your query
 
                 }
 
             }
             catch(Exception e)
             {
-                System.out.println("Error in getData"+e);
+             // System.out.println("Error in getData"+e);
             }
         }
         public void insert_foundsite(String url, int hash_code)
@@ -65,7 +65,7 @@ public class theDataBase {
             {
               //  System.out.println(e.toString());
               //  System.out.println(e.toString());
-              System.out.println("ERROR IN SQL STATEMENT insert_foundsite ");
+           // System.out.println("ERROR IN SQL STATEMENT insert_foundsite ");
 
             }
         }
@@ -89,7 +89,7 @@ public class theDataBase {
             }
             catch(Exception e)
             {
-                System.out.println("Error in Queue_url_isEmpty"+e);
+             // System.out.println("Error in Queue_url_isEmpty"+e);
             }
             return true;
         }
@@ -108,7 +108,7 @@ public class theDataBase {
             }
             catch (Exception e)
             {
-            System.out.println("ERROR IN GETSIZE"+e.toString());
+         // System.out.println("ERROR IN GETSIZE"+e.toString());
             }
             return -1;
         }
@@ -121,7 +121,7 @@ public class theDataBase {
                 rs=ps.executeQuery();
                 /*while(rs.next())
                 {
-                    System.out.println(rs.getString(1)+"   "+ rs.getString(2)); //here you can get data, the '1' indicates column number based on your query
+                 // System.out.println(rs.getString(1)+"   "+ rs.getString(2)); //here you can get data, the '1' indicates column number based on your query
 
                 }*/
                 rs.next();
@@ -130,7 +130,7 @@ public class theDataBase {
             }
             catch(Exception e)
             {
-                System.out.println("Error in get_next_url_queue"+e);
+             // System.out.println("Error in get_next_url_queue"+e);
             }
             return  "";
         }
@@ -144,7 +144,7 @@ public class theDataBase {
             }
             catch(Exception e)
             {
-                System.out.println("Error in dequeue_FROM_TABLE"+e);
+             // System.out.println("Error in dequeue_FROM_TABLE"+e);
             }
 
         }
@@ -161,7 +161,7 @@ public class theDataBase {
         catch (Exception e)
         {
             //  System.out.println(e.toString());
-            System.out.println("ERROR IN SQL STATEMENT enqueue_URL_QUEUE");
+         // System.out.println("ERROR IN SQL STATEMENT enqueue_URL_QUEUE");
 
         }
     }
@@ -186,7 +186,7 @@ public class theDataBase {
         }
         catch(Exception e)
         {
-            System.out.println("Error in URL_exists_in_found_sites"+e);
+         // System.out.println("Error in URL_exists_in_found_sites"+e);
         }
         return false;
     }
@@ -211,24 +211,26 @@ public class theDataBase {
         }
         catch(Exception e)
         {
-            System.out.println("Error in URL_exists_in_found_sites"+e);
+         // System.out.println("Error in URL_exists_in_found_sites"+e);
         }
         return false;
     }
     public static void main(String[] args) {
         theDataBase db=new theDataBase();
-        System.out.println(db.URL_exists_in_QUEUE("llhttps://www8.hp.com/us/en/services/consumer/services-overview.html"));
+        db.insert_foundsite("kaaaaak.com",111223);
+        db.insert_foundsite("google.com",1);
+        db.printAllRows();
      //  db.enqueue_URL_QUEUE("KAAAAAAAAAAAAAAAAAAAAAAAAK.com");
        // System.out.println("mohamed exists="+db.URL_exists_in_found_sites("kmohamed.com"));
        // System.out.println("rols exists="+db.URL_exists_in_found_sites("rola.com"));
         /*System.out.println("next url="+db.get_next_url_queue());
         db.dequeue_FROM_TABLE();
-        System.out.println("next url="+db.get_next_url_queue());*/
+     // System.out.println("next url="+db.get_next_url_queue());*/
        /* System.out.println("size="+db.Count_FoundSites());
        db.insert_foundsite("dfggdfgsgdgdfgdddd.com",111551);
         db.insert_foundsite("ddddfgdsfgsdfsasdasdasdasdasdasdasdd.com",331122);
         db.printAllRows();
-        System.out.println("size="+db.Count_FoundSites());
+     // System.out.println("size="+db.Count_FoundSites());
         String MYNAME="MOHAMED";*/
       //  System.out.println(MYNAME.hashCode());
         //1948515761
