@@ -1,0 +1,1 @@
+thi tag is compulsori for ani html document. the head tag is us to creat a titl of web page, css syntax for a web page, and help in written a javascript code. the bodi tag is us to displai the content on a web page. in thi exampl we do not specifi ani content or ani tag, so in output noth will displai on the web page

@@ -1,38 +1,59 @@
 package lib;
+
 import java.util.ArrayList;
 
-public class Indexer implements Runnable{
-    //array of file paths
+// This class takes the output of the stemmer and stores each word in the database with its docNum and index
+// Threads of it are created in the main function
+public class Indexer implements Runnable {
+    // array of file paths
     ArrayList<String> Docs;
     theDataBase db;
-    int start,end;
-    public Indexer(ArrayList<String>Docs,int start,int end,theDataBase db){
+    int start, end;
+
+    public Indexer(ArrayList<String> Docs, int start, int end, theDataBase db) {
         this.Docs = Docs;
         this.start = start;
         this.end = end;
         this.db = db;
     }
 
+    // TODO| identify each word whether it's h1, h2, h3, p, div, etc. and put its
+    // TODO| priority according to this (Sooo hard)
     @Override
     public void run() {
-        int indx = 0;
         for (int i = this.start; i < this.end; i++) {
-            ReadFile rFile = new ReadFile(this.Docs.get(i));
+            // read the output of the stemmer
+            ReadFile rFile = new ReadFile(Constants.stemmedDir + this.Docs.get(i));
+            // indx of words
+            Integer indx = 0;
+            // array of lines
             String[] lines = rFile.file.split("\n");
+            ArrayList<String> fileTerms = new ArrayList<>();
+            ArrayList<Integer> takenWordsIndecies = new ArrayList<>();
+            // array of words
             for (int j = 0; j < lines.length; j++) {
                 String[] terms = lines[j].split(" ");
                 for (int k = 0; k < terms.length; k++) {
-                    db.insertWord(terms[k], i, indx++, 0);
+                    String ok = FilterString.termOk(terms[k]);
+                    if (ok != "") {
+                        fileTerms.add(ok);
+                        takenWordsIndecies.add(indx);
+                    }
+                    // true index in the original document
+                    indx++;
                 }
             }
+
+            // insert array of words in the database & remove .txt from its name
+            db.insertIndexedFile(fileTerms,takenWordsIndecies, Integer.parseInt(this.Docs.get(i).replace(".txt", "")), 0);
         }
     }
 
     public static void main(String[] args) {
         ArrayList<String> files = new ArrayList<>();
-        files.add("Files/in1.txt");
+        files.add("Files/in2.txt");
         theDataBase db = new theDataBase();
-        Thread t1 = new Thread(new Indexer(files,0,1,db));
+        Thread t1 = new Thread(new Indexer(files, 0, 1, db));
         t1.start();
         try {
             t1.join();

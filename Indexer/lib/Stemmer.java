@@ -1,14 +1,18 @@
 package lib;
 
-import java.io.FileWriter;
-import java.io.IOException;
 import java.util.ArrayList;
 
-public class Stemmer implements Runnable{
-    //array of file paths
+// This class uses PorterStemmer class to stem whole files
+// TODO implement stem(String word)
+// TODO take html files content as input and stem them instead of ReadFile in PorterStemmer
+// TODO read files from Crawler Directory instead of Files/ I don't know how
+// TODO identify each word whether it's h1, h2, h3, p, div, etc. and put its priority according to this (Sooo hard)
+public class Stemmer implements Runnable {
+    // array of file paths
     ArrayList<String> Docs;
-    int start,end;
-    public Stemmer(ArrayList<String>Docs,int start,int end){
+    int start, end;
+
+    public Stemmer(ArrayList<String> Docs, int start, int end) {
         this.Docs = Docs;
         this.start = start;
         this.end = end;
@@ -18,22 +22,17 @@ public class Stemmer implements Runnable{
     public void run() {
         for (int i = this.start; i < this.end; i++) {
             PorterStemmer st = new PorterStemmer();
-            
-            try {
-                String temp  = st.stem(this.Docs.get(i));
-                FileWriter ff = new FileWriter(this.Docs.get(i));
-                ff.append(temp);
-                ff.close();
-            } catch (IOException e) {
-                System.out.println(e.toString());
-            }
+            // take file dir and stem it
+            String temp = st.stem(Constants.filesDir + this.Docs.get(i));
+            // output stemmed result
+            new OutputFile(Constants.stemmedDir + this.Docs.get(i), temp);
         }
     }
 
     public static void main(String[] args) {
         ArrayList<String> files = new ArrayList<>();
-        files.add("Files/in1.txt");
-        Thread t1 = new Thread(new Stemmer(files,0,1));
+        files.add("Files/in3.txt");
+        Thread t1 = new Thread(new Stemmer(files, 0, 1));
         t1.start();
         try {
             t1.join();

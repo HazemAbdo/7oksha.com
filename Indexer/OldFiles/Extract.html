@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<!-- saved from url=(0063)https://jsoup.org/cookbook/extracting-data/attributes-text-html -->
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Extract attributes, text, and HTML from elements: jsoup Java HTML parser</title>
+
+  <meta name="keywords" content="">
+  <meta name="description" content="Guide to pulling data (attributes, text, and HTML) from a HTML document.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link type="text/css" rel="stylesheet"
+    href="./Extract attributes, text, and HTML from elements_ jsoup Java HTML parser_files/style.css">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@jhy">
+  <meta name="twitter:title" content="Extract attributes, text, and HTML from elements">
+  <meta name="twitter:description" content="Guide to pulling data (attributes, text, and HTML) from a HTML document.">
+  <meta name="twitter:image" content="https://jsoup.org/rez/jsoup%20logo%20twitter.png">
+</head>
+
+<body class="n1-cookbook" data-new-gr-c-s-check-loaded="14.1012.0" data-gr-ext-installed="">
+  <div class="wrap">
+    <div class="header">
+      <div class="nav-sections">
+        <ul>
+          <li class="n1-home">
+            <h4><a href="https://jsoup.org/">jsoup</a></h4>
+          </li>
+          <li class="n1-news"><a href="https://jsoup.org/news/">News</a></li>
+          <li class="n1-bugs"><a href="https://jsoup.org/bugs">Bugs</a></li>
+          <li class="n1-discussion"><a href="https://jsoup.org/discussion">Discussion</a></li>
+          <li class="n1-download"><a href="https://jsoup.org/download">Download</a></li>
+          <li class="n1-api"><a href="https://jsoup.org/apidocs/">API Reference</a></li>
+          <li class="n1-cookbook"><a href="https://jsoup.org/cookbook/">Cookbook</a></li>
+          <li class="n1-try"><a href="https://try.jsoup.org/">Try jsoup</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="breadcrumb" itemscope="" itemtype="http://schema.org/BreadcrumbList"> <span itemprop="itemListElement"
+        itemscope="" itemtype="http://schema.org/ListItem"> <a href="https://jsoup.org/" itemprop="item"><span
+            itemprop="name">jsoup</span></a>
+        <meta itemprop="position" content="1">
+      </span> <span class="seperator">»</span> <span itemprop="itemListElement" itemscope=""
+        itemtype="http://schema.org/ListItem"> <a href="https://jsoup.org/cookbook/" itemprop="item"><span
+            itemprop="name">Cookbook</span></a>
+        <meta itemprop="position" content="2">
+      </span> <span class="seperator">»</span> <span itemprop="itemListElement" itemscope=""
+        itemtype="http://schema.org/ListItem"> <a href="https://jsoup.org/cookbook/extracting-data/"
+          itemprop="item"><span itemprop="name">Extracting data</span></a>
+        <meta itemprop="position" content="3">
+      </span> <span class="seperator">»</span> <span itemprop="itemListElement" itemscope=""
+        itemtype="https://schema.org/ListItem"> <span itemprop="name">Extract attributes, text, and HTML from
+          elements</span>
+        <meta itemprop="position" content="4">
+      </span>
+    </div>
+    <div class="content">
+      <div class="col1">
+        <div class="recipe">
+          <h1>Extract attributes, text, and HTML from elements</h1>
+          <h2>Problem</h2>
+          <p>After parsing a document, and finding some elements, you'll want to get at the data inside those elements.
+          </p>
+          <h2>Solution</h2>
+          <ul>
+            <li>To get the value of an attribute, use the
+              <code><a href="https://jsoup.org/apidocs/org/jsoup/nodes/Node.html#attr(java.lang.String)" title="Get an attribute&#39;s value by its key.">Node.attr(String key)</a></code>
+              method</li>
+            <li>For the text on an element (and its combined children), use
+              <code><a href="https://jsoup.org/apidocs/org/jsoup/nodes/Element.html#text()" title="Gets the normalized, combined text of this element and all its children.">Element.text()</a></code>
+            </li>
+            <li>For HTML, use
+              <code><a href="https://jsoup.org/apidocs/org/jsoup/nodes/Element.html#html()" title="Retrieves the element&#39;s inner HTML.">Element.html()</a></code>,
+              or
+              <code><a href="https://jsoup.org/apidocs/org/jsoup/nodes/Node.html#outerHtml()" title="Get the outer HTML of this node.">Node.outerHtml()</a></code>
+              as appropriate</li>
+          </ul>
+          <p>For example:</p>
+          <pre><code class="prettyprint"><span class="typ">String</span><span class="pln"> html </span><span class="pun">=</span><span class="pln"> </span><span class="str">"&lt;p&gt;An &lt;a href='http://example.com/'&gt;&lt;b&gt;example&lt;/b&gt;&lt;/a&gt; link.&lt;/p&gt;"</span><span class="pun">;</span><span class="pln"><br></span><span class="typ">Document</span><span class="pln"> doc </span><span class="pun">=</span><span class="pln"> </span><span class="typ">Jsoup</span><span class="pun">.</span><span class="pln">parse</span><span class="pun">(</span><span class="pln">html</span><span class="pun">);</span><span class="pln"><br></span><span class="typ">Element</span><span class="pln"> link </span><span class="pun">=</span><span class="pln"> doc</span><span class="pun">.</span><span class="kwd">select</span><span class="pun">(</span><span class="str">"a"</span><span class="pun">).</span><span class="pln">first</span><span class="pun">();</span><span class="pln"><br><br></span><span class="typ">String</span><span class="pln"> text </span><span class="pun">=</span><span class="pln"> doc</span><span class="pun">.</span><span class="pln">body</span><span class="pun">().</span><span class="pln">text</span><span class="pun">();</span><span class="pln"> </span><span class="com">// "An example link"</span><span class="pln"><br></span><span class="typ">String</span><span class="pln"> linkHref </span><span class="pun">=</span><span class="pln"> link</span><span class="pun">.</span><span class="pln">attr</span><span class="pun">(</span><span class="str">"href"</span><span class="pun">);</span><span class="pln"> </span><span class="com">// "http://example.com/"</span><span class="pln"><br></span><span class="typ">String</span><span class="pln"> linkText </span><span class="pun">=</span><span class="pln"> link</span><span class="pun">.</span><span class="pln">text</span><span class="pun">();</span><span class="pln"> </span><span class="com">// "example""</span><span class="pln"><br><br></span><span class="typ">String</span><span class="pln"> linkOuterH </span><span class="pun">=</span><span class="pln"> link</span><span class="pun">.</span><span class="pln">outerHtml</span><span class="pun">();</span><span class="pln"> <br>&nbsp; &nbsp; </span><span class="com">// "&lt;a href="http://example.com"&gt;&lt;b&gt;example&lt;/b&gt;&lt;/a&gt;"</span><span class="pln"><br></span><span class="typ">String</span><span class="pln"> linkInnerH </span><span class="pun">=</span><span class="pln"> link</span><span class="pun">.</span><span class="pln">html</span><span class="pun">();</span><span class="pln"> </span><span class="com">// "&lt;b&gt;example&lt;/b&gt;"</span></code></pre>
+          <h2>Description</h2>
+          <p>The methods above are the core of the element data access methods. There are additional others:</p>
+          <ul>
+            <li>
+              <code><a href="https://jsoup.org/apidocs/org/jsoup/nodes/Element.html#id()" title="Get the id attribute of this element.">Element.id()</a></code>
+            </li>
+            <li>
+              <code><a href="https://jsoup.org/apidocs/org/jsoup/nodes/Element.html#tagName()" title="Get the name of the tag for this element.">Element.tagName()</a></code>
+            </li>
+            <li>
+              <code><a href="https://jsoup.org/apidocs/org/jsoup/nodes/Element.html#className()" title="Gets the literal value of this element&#39;s &quot;class&quot; attribute, which may include multiple class names, space separated.">Element.className()</a></code>
+              and
+              <code><a href="https://jsoup.org/apidocs/org/jsoup/nodes/Element.html#hasClass(java.lang.String)" title="Tests if this element has a class.">Element.hasClass(String className)</a></code>
+            </li>
+          </ul>
+          <p>All of these accessor methods have corresponding setter methods to change the data.</p>
+          <h2>See also</h2>
+          <ul>
+            <li>The reference documentation for
+              <code><a href="https://jsoup.org/apidocs/org/jsoup/nodes/Element.html" title="A HTML element consists of a tag name, attributes, and child nodes (including text nodes and other elements).">Element</a></code>
+              and the collection
+              <code><a href="https://jsoup.org/apidocs/org/jsoup/select/Elements.html" title="A list of Elements, with methods that act on every element in the list.">Elements</a></code>
+              class</li>
+            <li><a href="https://jsoup.org/cookbook/extracting-data/working-with-urls">Working with URLs</a></li>
+            <li><a href="https://jsoup.org/cookbook/extracting-data/selector-syntax">finding elements with the CSS
+                selector syntax</a></li>
+          </ul>
+        </div>
+      </div><!-- /col1 -->
+      <div class="col2">
+        <div class="toc box">
+          <h2><a href="https://jsoup.org/cookbook/">Cookbook contents</a></h2>
+          <h3>Introduction</h3>
+          <ol start="1">
+            <li><a href="https://jsoup.org/cookbook/introduction/parsing-a-document">Parsing and traversing a
+                Document</a></li>
+          </ol>
+          <h3>Input</h3>
+          <ol start="2">
+            <li><a href="https://jsoup.org/cookbook/input/parse-document-from-string">Parse a document from a String</a>
+            </li>
+            <li><a href="https://jsoup.org/cookbook/input/parse-body-fragment">Parsing a body fragment</a></li>
+            <li><a href="https://jsoup.org/cookbook/input/load-document-from-url">Load a Document from a URL</a></li>
+            <li><a href="https://jsoup.org/cookbook/input/load-document-from-file">Load a Document from a File</a></li>
+          </ol>
+          <h3>Extracting data</h3>
+          <ol start="6">
+            <li><a href="https://jsoup.org/cookbook/extracting-data/dom-navigation">Use DOM methods to navigate a
+                document</a></li>
+            <li><a href="https://jsoup.org/cookbook/extracting-data/selector-syntax">Use selector-syntax to find
+                elements</a></li>
+            <li class="activePage">Extract attributes, text, and HTML from elements</li>
+            <li><a href="https://jsoup.org/cookbook/extracting-data/working-with-urls">Working with URLs</a></li>
+            <li><a href="https://jsoup.org/cookbook/extracting-data/example-list-links">Example program: list links</a>
+            </li>
+          </ol>
+          <h3>Modifying data</h3>
+          <ol start="11">
+            <li><a href="https://jsoup.org/cookbook/modifying-data/set-attributes">Set attribute values</a></li>
+            <li><a href="https://jsoup.org/cookbook/modifying-data/set-html">Set the HTML of an element</a></li>
+            <li><a href="https://jsoup.org/cookbook/modifying-data/set-text">Setting the text content of elements</a>
+            </li>
+          </ol>
+          <h3>Cleaning HTML</h3>
+          <ol start="14">
+            <li><a href="https://jsoup.org/cookbook/cleaning-html/whitelist-sanitizer">Sanitize untrusted HTML (to
+                prevent XSS)</a></li>
+          </ol>
+        </div>
+      </div><!-- /col2 -->
+    </div><!-- /content-->
+    <div class="footer"> <b>jsoup HTML parser</b> © 2009 - 2021 <a href="https://jhy.io/" rel="author"><b>Jonathan
+          Hedley</b></a>
+    </div>
+  </div><!-- /wrap -->
+  <script src="./Extract attributes, text, and HTML from elements_ jsoup Java HTML parser_files/highlight.js.download"
+    async=""></script>
+  <script>window.ga = window.ga || function () { (ga.q = ga.q || []).push(arguments) }; ga.l = +new Date; ga('create', 'UA-89734-10', 'auto'); ga('send', 'pageview');</script>
+  <script async=""
+    src="./Extract attributes, text, and HTML from elements_ jsoup Java HTML parser_files/analytics.js.download"></script>
+
+</body>
+
+</html>
