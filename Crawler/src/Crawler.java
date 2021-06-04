@@ -44,8 +44,9 @@ crawl();
     }
 private void crawl()
 {
-    while (!db.Queue_url_isEmpty() && db.Count_FoundSites()<MAX_NUMBER_PAGES)
+    while ( db.Count_FoundSites()<MAX_NUMBER_PAGES)
     {
+        while(!db.Queue_url_isEmpty() ){}
         String url;
         synchronized (db)
         {
