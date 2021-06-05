@@ -25,7 +25,7 @@ public class Crawler implements Runnable
     private Queue<String> queue_URL =new LinkedList<>();
 
     private int id;
-    theDataBase db;
+     static theDataBase db;
     //constructor
     public Crawler (int num)
     {
